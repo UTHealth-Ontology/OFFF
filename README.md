@@ -1,2 +1,3 @@
-# Ontology-of-Fast-Food-Facts
  
+# Ontology-of-Fast-Food-Facts
+The Ontology of Fast Food Facts (OFFF) is health consumer ontology that models basic nutritional data and information about fast food items. This ontology is concerns only the essential health consumer relevant information and knowledge that can typically be found in materials directed to general population. The overarching goal is to use this ontology for patient-facing tools and technology that could directly or indirectly impact the health of the patient.
