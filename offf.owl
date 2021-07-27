@@ -1,0 +1,2476 @@
+Prefix(:=<http://sbmi.uth.edu/ontology/offf#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://sbmi.uth.edu/ontology/offf>
+Import(<http://www.w3.org/2004/02/skos/core>)
+Annotation(<http://purl.org/dc/terms/contributor> "Chidinma Onye")
+Annotation(<http://purl.org/dc/terms/creator> "Jing Wang, Tuan Amith, Cui Tao")
+Annotation(<http://purl.org/dc/terms/description> "an ontology of nutritional information from major fast food companies")
+Annotation(<http://purl.org/dc/terms/title> "Ontology of Fast Food Facts (OFFF)")
+
+Declaration(Class(:Added_Sugar_Data))
+Declaration(Class(:All_Natural_Lemonade))
+Declaration(Class(:Allergens))
+Declaration(Class(:Americano))
+Declaration(Class(:Annatto_Ingredient))
+Declaration(Class(:Apple_Bites))
+Declaration(Class(:Apple_Juice))
+Declaration(Class(:Apple_Pecan_Chicken_Salad))
+Declaration(Class(:Apple_Pecan_Chicken_Salad_Dressing))
+Declaration(Class(:Apple_Pie))
+Declaration(Class(:Apple_Slices))
+Declaration(Class(:Apple_and_Cranberry_Chicken_Salad))
+Declaration(Class(:Applesauce))
+Declaration(Class(:Asian_Beef_Dish))
+Declaration(Class(:Asian_Chicken_Breast_Dish))
+Declaration(Class(:Asian_Chicken_Dish))
+Declaration(Class(:Asian_Noodle_Dish))
+Declaration(Class(:Asian_Seafood_Dish))
+Declaration(Class(:BBQ_Sauce))
+Declaration(Class(:Bacon_Egg_and_Cheese_Bagel))
+Declaration(Class(:Bacon_Egg_and_Cheese_Biscuit))
+Declaration(Class(:Bacon_Egg_and_Cheese_McGriddles))
+Declaration(Class(:Bacon_Egg_and_Swiss_Croissant))
+Declaration(Class(:Bacon_Jalapeno_Cheeseburger))
+Declaration(Class(:Bacon_Jalapeno_Chicken_Sandwich))
+Declaration(Class(:Bacon_Lettuce_and_Tomato_Sandwich))
+Declaration(Class(:Bacon_and_Cheese_Hamburger))
+Declaration(Class(:Banana))
+Declaration(Class(:Banana_Shake))
+Declaration(Class(:Banana_Split))
+Declaration(Class(:Barbecue_Cheeseburger))
+Declaration(Class(:Bean_Burrito))
+Declaration(Class(:Beef_Burrito))
+Declaration(Class(:Beef_Ingredient))
+Declaration(Class(:Beijing_Beef))
+Declaration(Class(:Beta_Carotene_Ingredient))
+Declaration(Class(:Big_Breakfast))
+Declaration(Class(:Big_Breakfast_Hotcakes))
+Declaration(Class(:Big_Breakfast_with_Hotcakes))
+Declaration(Class(:Biscuit_and_Gravy))
+Declaration(Class(:Biscuit_with_Bacon))
+Declaration(Class(:Biscuit_with_Sausage))
+Declaration(Class(:Black_Pepper_Beef))
+Declaration(Class(:Black_Tea_Ingredient))
+Declaration(Class(:Blizzard_Cake))
+Declaration(Class(:Blizzard_Treat))
+Declaration(Class(:Blue_Raspberry_Slushie))
+Declaration(Class(:Breakfast_Bacon))
+Declaration(Class(:Breakfast_Baconator))
+Declaration(Class(:Breakfast_Bagel_Sandwich))
+Declaration(Class(:Breakfast_Biscuit_Sandwich))
+Declaration(Class(:Breakfast_Burritos))
+Declaration(Class(:Breakfast_Oats_Item))
+Declaration(Class(:Breakfast_Platter))
+Declaration(Class(:Breakfast_Platter_Whataburgers))
+Declaration(Class(:Breakfast_Sandwich))
+Declaration(Class(:Breakfast_Sausage_Burrito))
+Declaration(Class(:Brown_Rice))
+Declaration(Class(:Brownie))
+Declaration(Class(:Brownie_and_Oreo_Cupfection))
+Declaration(Class(:Buster_Bar))
+Declaration(Class(:Buttermilk_Crispy_Chicken_Sandwich))
+Declaration(Class(:Cake))
+Declaration(Class(:Calcium))
+Declaration(Class(:Calories_Data))
+Declaration(Class(:Calories_Fat_Data))
+Declaration(Class(:Canola_Oil_ingredient))
+Declaration(Class(:Cappuccino))
+Declaration(Class(:Caramel_Cappuccino))
+Declaration(Class(:Caramel_Frappe))
+Declaration(Class(:Caramel_Latte))
+Declaration(Class(:Caramel_Macchiato))
+Declaration(Class(:Caramel_Mocha))
+Declaration(Class(:Caramel_MooLatte))
+Declaration(Class(:Caramel_Shake))
+Declaration(Class(:Caramel_Sundae))
+Declaration(Class(:Carbohydrates_Data))
+Declaration(Class(:Carbonated_Water))
+Declaration(Class(:Cheese_Curds))
+Declaration(Class(:Cheese_Rice_and_Bean_Burrito))
+Declaration(Class(:Cheese_ingredient))
+Declaration(Class(:Cheeseburger))
+Declaration(Class(:Cheesecake))
+Declaration(Class(:Chicken_BLT_Salad))
+Declaration(Class(:Chicken_Bacon_Ranch_Artisan-Style_Sandwich))
+Declaration(Class(:Chicken_Biscuit))
+Declaration(Class(:Chicken_Burrito))
+Declaration(Class(:Chicken_Ingredient))
+Declaration(Class(:Chicken_McNuggets))
+Declaration(Class(:Chicken_Noodle_Soup))
+Declaration(Class(:Chicken_Nuggets))
+Declaration(Class(:Chicken_Rings))
+Declaration(Class(:Chicken_Salad))
+Declaration(Class(:Chicken_Sandwich))
+Declaration(Class(:Chicken_Strip))
+Declaration(Class(:Chicken_Strip_Basket))
+Declaration(Class(:Chili_Cheese_Hot_Dog))
+Declaration(Class(:Chilli_Sauce))
+Declaration(Class(:Choco_Brownie_Treatzza_Pizza))
+Declaration(Class(:Choco_Brownie_Xtreme_Blizzard_Cake))
+Declaration(Class(:Chocolate_Cake_Shake))
+Declaration(Class(:Chocolate_Chip_Cookie))
+Declaration(Class(:Chocolate_Chunk_Cookie))
+Declaration(Class(:Chocolate_Dipped_Cone))
+Declaration(Class(:Chocolate_Frosty_Cookie_Sundae))
+Declaration(Class(:Chocolate_Malt))
+Declaration(Class(:Chocolate_Milk))
+Declaration(Class(:Chocolate_Shake))
+Declaration(Class(:Chocolate_Sundae))
+Declaration(Class(:Cholesterol_Data))
+Declaration(Class(:Chow_Mein))
+Declaration(Class(:Cinnamon_Roll))
+Declaration(Class(:Citric_Acid_Ingredient))
+Declaration(Class(:Citrus_Soda))
+Declaration(Class(:Clam_Strips))
+Declaration(Class(:Classic_Bacon_Egg_and_Cheese_Sandwich))
+Declaration(Class(:Classic_Sausage_Egg_and_Cheese_Sandwich))
+Declaration(Class(:Club_Soda))
+Declaration(Class(:Cobb_Salad))
+Declaration(Class(:Cocoa_Cola_Soft_Drink))
+Declaration(Class(:Coffee))
+Declaration(Class(:Coke_Soft_Drink))
+Declaration(Class(:Cold_Coffee))
+Declaration(Class(:Cone))
+Declaration(Class(:Cone_Kids_Dairy_Queen))
+Declaration(Class(:Cookie))
+Declaration(Class(:Cookie_Dough_Blizzard_Cake))
+Declaration(Class(:Cotton_Candy_Dipped_Cone))
+Declaration(Class(:Cream_Ingredient))
+Declaration(Class(:Cream_Soda))
+Declaration(Class(:Crispy_Chicken_BLT))
+Declaration(Class(:Crispy_Chicken_Nuggets))
+Declaration(Class(:Crispy_Chicken_Sandwich))
+Declaration(Class(:Croissant_Sandwich))
+Declaration(Class(:Crunch_Taco))
+Declaration(Class(:Crunchy_Taco_Supreme))
+Declaration(Class(:Cucumbers_Ingredient))
+Declaration(Class(:Culture_Ingredient))
+Declaration(Class(:DQ_Treatzza_Pizza))
+Declaration(Class(:Dairy_Queen_Signature_All_Ocassion_Round_Cake))
+Declaration(Class(:Dairy_Queen_Signature_All_Ocassion_Sheet_Cake))
+Declaration(Class(:Dark_Soda))
+Declaration(Class(:Decaffeinated_Coffee))
+Declaration(Class(:Dextrose_Ingredient))
+Declaration(Class(:Diet_Coke_Soft_Drink))
+Declaration(Class(:Diet_Quality))
+Declaration(Class(:Diet_Soft_Drink))
+Declaration(Class(:Dietary_Fibre_Data))
+Declaration(Class(:Dilly_Bar))
+Declaration(Class(:Dipped_Strawberry_Cake_Cupfection))
+Declaration(Class(:Donut))
+Declaration(Class(:Double_Patty_Cheese_Burger))
+Declaration(Class(:Double_Patty_Hamburger))
+Declaration(Class(:Double_Quarter_Pounder_with_Cheese))
+Declaration(Class(:Dr_Pepper_Shake))
+Declaration(Class(:Dr_Pepper_Soft_Drink))
+Declaration(Class(:Egg_McMuffin))
+Declaration(Class(:Egg_and_Cheese_Biscuit))
+Declaration(Class(:Enzymes_Ingredient))
+Declaration(Class(:Excess_Fat))
+Declaration(Class(:Excess_Sodium))
+Declaration(Class(:Excess_Sugar))
+Declaration(Class(:Excess_Trans_Fat))
+Declaration(Class(:Fanta_Soft_Drink))
+Declaration(Class(:Fast_Food))
+Declaration(Class(:Fast_Food_Asian_Dish))
+Declaration(Class(:Fast_Food_Beverage))
+Declaration(Class(:Fast_Food_Breakfast_Item))
+Declaration(Class(:Fast_Food_Burrito))
+Declaration(Class(:Fast_Food_Chicken))
+Declaration(Class(:Fast_Food_Condiment))
+Declaration(Class(:Fast_Food_Dessert))
+Declaration(Class(:Fast_Food_Restaurant))
+Declaration(Class(:Fast_Food_Salad))
+Declaration(Class(:Fast_Food_Sandwich))
+Declaration(Class(:Fast_Food_Sides))
+Declaration(Class(:Fast_Food_Taco))
+Declaration(Class(:Fat_Data))
+Declaration(Class(:Fish_Fries))
+Declaration(Class(:Fish_Sandwich))
+Declaration(Class(:Flour_Ingredient))
+Declaration(Class(:Food))
+Declaration(Class(:Food_Ingredient))
+Declaration(Class(:Fortune_Cookie))
+Declaration(Class(:Frappe))
+Declaration(Class(:French_Vanilla_Cappuccino))
+Declaration(Class(:French_Vanilla_Latte))
+Declaration(Class(:Fried_Cheese))
+Declaration(Class(:Fried_Noodles))
+Declaration(Class(:Fried_Rice))
+Declaration(Class(:Fries))
+Declaration(Class(:Frosted_Coffee))
+Declaration(Class(:Frosted_Lemonade))
+Declaration(Class(:Fruit))
+Declaration(Class(:Fruit_Cup))
+Declaration(Class(:Fruit_Juice))
+Declaration(Class(:Fruit_Punch_Slushie))
+Declaration(Class(:Fruit_Punch_Soda))
+Declaration(Class(:Fruit_Soda))
+Declaration(Class(:Fruit_and_Maple_Oatmeal))
+Declaration(Class(:Fudge_Stuffed_Cookie))
+Declaration(Class(:Garden_Herb_Ranch))
+Declaration(Class(:Garden_Salad))
+Declaration(Class(:Ginger_Ale))
+Declaration(Class(:Green_Tea))
+Declaration(Class(:Grilled_Asiago_Ranch_Club))
+Declaration(Class(:Grilled_Avocado_BLT_Chicken_Sandwich))
+Declaration(Class(:Grilled_Bacon_Jalapeno_Chicken_Sandwich))
+Declaration(Class(:Grilled_Barbecue_Chicken_Sandwich))
+Declaration(Class(:Grilled_Chicken_Sandwich))
+Declaration(Class(:Grilled_Steak_Soft_Taco))
+Declaration(Class(:Gum_Arabic_Ingredient))
+Declaration(Class(:HDL_Levels))
+Declaration(Class(:Hamburger))
+Declaration(Class(:Hamburger_with_Bacon))
+Declaration(Class(:Hard_Taco))
+Declaration(Class(:Hash_Brown_Sticks))
+Declaration(Class(:Hash_Browns))
+Declaration(Class(:Health_Outcomes))
+Declaration(Class(:Heart_Disease))
+Declaration(Class(:Heath_Treatzza_Pizza))
+Declaration(Class(:High_Fructose_Corn_Syrup_Ingredient))
+Declaration(Class(:Homestyle_Asiago_Ranch_Chicken_Club))
+Declaration(Class(:Homestyle_Avocado_BLT_Chicken_Sandwich))
+Declaration(Class(:Homestyle_Bacon_Jalapeno_Chicken_Sandwich))
+Declaration(Class(:Homestyle_Barbeque_Chicken_Sandwich))
+Declaration(Class(:Homestyle_Chicken_Sandwich))
+Declaration(Class(:Honey_BBQ_Glazed_Chicken_Strip_Basket))
+Declaration(Class(:Honey_BBQ_Glazed_Chicken_Strip_Basket_Combo))
+Declaration(Class(:Honey_Mustard))
+Declaration(Class(:Hot_Chocolate))
+Declaration(Class(:Hot_Desserts_a_la_Mode))
+Declaration(Class(:Hot_Dog))
+Declaration(Class(:Hot_Fudge_Shake))
+Declaration(Class(:Hot_Fudge_Sundae))
+Declaration(Class(:Hot_Mustard))
+Declaration(Class(:Hot_Sauce))
+Declaration(Class(:Hot_Tea))
+Declaration(Class(:Hotcakes))
+Declaration(Class(:Hotcakes_Breakfast))
+Declaration(Class(:Hotcakes_and_Sausages))
+Declaration(Class(:Hypertension))
+Declaration(Class(:Ice_Cream))
+Declaration(Class(:Ice_Cream_Bar))
+Declaration(Class(:Ice_Cream_Cake))
+Declaration(Class(:Ice_Cream_Sandwich))
+Declaration(Class(:Iced_Caramel_Coffee))
+Declaration(Class(:Iced_Caramel_Macchiato))
+Declaration(Class(:Iced_Caramel_Mocha))
+Declaration(Class(:Iced_Coffee))
+Declaration(Class(:Iced_French_Vanilla_Coffee))
+Declaration(Class(:Iced_French_Vanilla_Latte))
+Declaration(Class(:Iced_Latte))
+Declaration(Class(:Iced_Mocha))
+Declaration(Class(:Iced_Tea))
+Declaration(Class(:Iron))
+Declaration(Class(:Jalapeno_and_Cheese_Whataburger))
+Declaration(Class(:Jr_Cheeseburger))
+Declaration(Class(:Jr_Cheeseburger_Deluxe))
+Declaration(Class(:Julius_Original))
+Declaration(Class(:Kale_Crunch_Side))
+Declaration(Class(:Kung_Pao_Chicken))
+Declaration(Class(:LDL_Levels))
+Declaration(Class(:Lactic_Acid_Ingredient))
+Declaration(Class(:Latte))
+Declaration(Class(:Lemon_Pie))
+Declaration(Class(:Lemonade))
+Declaration(Class(:Lemonade_Twisty_Misty_Slush))
+Declaration(Class(:Lettuce_Ingredient))
+Declaration(Class(:Light_Soda))
+Declaration(Class(:Macchiato))
+Declaration(Class(:Macorni_and_Cheese))
+Declaration(Class(:Maltodextrin_Ingredient))
+Declaration(Class(:Mango_Passion_Tea_Lemonade))
+Declaration(Class(:Mango_Pineapple_Smoothie))
+Declaration(Class(:Maple_Bacon_Chicken_Croissant))
+Declaration(Class(:Mayonnaise))
+Declaration(Class(:McGriddles))
+Declaration(Class(:McMuffin))
+Declaration(Class(:Milk))
+Declaration(Class(:Milk_Ingredient))
+Declaration(Class(:Mineral_Water))
+Declaration(Class(:Minerals_Data))
+Declaration(Class(:Mini_Blizzard_Cake))
+Declaration(Class(:Mix_by_Sprite_Tropic_Berry))
+Declaration(Class(:Mocha))
+Declaration(Class(:Mocha_Frappe))
+Declaration(Class(:Mocha_MooLatte))
+Declaration(Class(:Mushroom_Swiss_Burger))
+Declaration(Class(:Mustard))
+Declaration(Class(:Mustard_Seed_Ingredient))
+Declaration(Class(:Nacho_Cheese_Doritos_Loco_Taco))
+Declaration(Class(:Nacho_Cheese_Doritos_Locos_Taco))
+Declaration(Class(:Natural_Flavors))
+Declaration(Class(:Naturally_Occurring_Sugar_Data))
+Declaration(Class(:Non-Dairy_Dilly_Bar))
+Declaration(Class(:Noodles))
+Declaration(Class(:NutritionalFact))
+Declaration(Class(:Nutritional_Components))
+Declaration(Class(:Oatmeal_Bar))
+Declaration(Class(:Obesity))
+Declaration(Class(:Onion_Rings))
+Declaration(Class(:Onions_Ingredient))
+Declaration(Class(:Orange_Chicken))
+Declaration(Class(:Orange_Juice))
+Declaration(Class(:Orange_Julius_Original))
+Declaration(Class(:Orange_Soda))
+Declaration(Class(:Oreo_Blizzard_Cake))
+Declaration(Class(:Oreo_Mini))
+Declaration(Class(:Organic_Apple_Juice))
+Declaration(Class(:Osteoporosis))
+Declaration(Class(:Overweight))
+Declaration(Class(:Pancake_Platter_Whataburgers))
+Declaration(Class(:Pancakes))
+Declaration(Class(:Paprika_Ingredient))
+Declaration(Class(:Parmesan_Caesar_Chicken))
+Declaration(Class(:Parmesan_Caesar_Chicken_Salad_Dressing))
+Declaration(Class(:Peach_Lemonade))
+Declaration(Class(:Peanut_Butter_Parfait))
+Declaration(Class(:Peanut_Butter_Shake))
+Declaration(Class(:Peanut_Butter_Sundae))
+Declaration(Class(:Peanut_Oil_Ingredient))
+Declaration(Class(:Pepper_Ingredient))
+Declaration(Class(:Pie))
+Declaration(Class(:Pineapple_Sundae))
+Declaration(Class(:Pink_Lemonade_Slushie))
+Declaration(Class(:Potassium))
+Declaration(Class(:Potassium_Sorbate_Ingredient))
+Declaration(Class(:Potatoe_Fries))
+Declaration(Class(:Potatoes_Ingredient))
+Declaration(Class(:Pretzel))
+Declaration(Class(:Pretzel_Sticks_with_Zesty_Queso))
+Declaration(Class(:Protein_Data))
+Declaration(Class(:Quarter_Pound_Hamburger))
+Declaration(Class(:Raised_Cholesterol_Levels))
+Declaration(Class(:Ranch))
+Declaration(Class(:Raspberry_Fudge_Bliss_Blizzard_Cake))
+Declaration(Class(:Raspberry_Tea))
+Declaration(Class(:Reese_Peanut_Butter_Cup_Blizzard_Cake))
+Declaration(Class(:Rice))
+Declaration(Class(:Root_Beer))
+Declaration(Class(:Royal_Treats))
+Declaration(Class(:Salad_Dressing))
+Declaration(Class(:Salt_Ingredient))
+Declaration(Class(:Saturated_Fat_Data))
+Declaration(Class(:Sausage_Biscuit))
+Declaration(Class(:Sausage_Biscuit_with_Egg))
+Declaration(Class(:Sausage_Egg_and_Cheese_Burrito))
+Declaration(Class(:Sausage_Egg_and_Cheese_McGriddles))
+Declaration(Class(:Sausage_Egg_and_Swiss_Croissant))
+Declaration(Class(:Sausage_McGriddles))
+Declaration(Class(:Sausage_McMuffin))
+Declaration(Class(:Sausage_McMuffin_with_Egg))
+Declaration(Class(:Seasme_Chicken))
+Declaration(Class(:Seasoned_Potatoes))
+Declaration(Class(:Seltzer_Water))
+Declaration(Class(:Serving_Size_Data))
+Declaration(Class(:Shake))
+Declaration(Class(:Shredded_Chicken_Burrito))
+Declaration(Class(:Sichuan_Chicken))
+Declaration(Class(:Side_Salad))
+Declaration(Class(:Silicon_Dioxide_Ingredient))
+Declaration(Class(:Slushie))
+Declaration(Class(:Smoothie))
+Declaration(Class(:Sodium))
+Declaration(Class(:Sodium_Citrate_Ingredient))
+Declaration(Class(:Sodium_Data))
+Declaration(Class(:Soft_Drink))
+Declaration(Class(:Soft_Taco))
+Declaration(Class(:Soft_Taco_Supreme_Beef_Taco))
+Declaration(Class(:Sorbic_Acid_Ingredient))
+Declaration(Class(:Soup))
+Declaration(Class(:Southwest_Avocado_Chicken_Salad))
+Declaration(Class(:Southwest_Avocado_Chicken_Salad_Dressing))
+Declaration(Class(:Soy_Sauce))
+Declaration(Class(:Soybean_Oil_Ingredient))
+Declaration(Class(:Spicy_Asiago_Ranch_Club))
+Declaration(Class(:Spicy_Avocado_BLT_Chicken_Sandwich))
+Declaration(Class(:Spicy_Barbeque_Chicken_Sandwich))
+Declaration(Class(:Spicy_Chicken_Nugget))
+Declaration(Class(:Spicy_Chicken_Sandwich))
+Declaration(Class(:Spicy_Potato_Soft_Taco))
+Declaration(Class(:Spicy_Southwest_Salad))
+Declaration(Class(:Sports_Drink))
+Declaration(Class(:Sprite_Soft_Drink))
+Declaration(Class(:Sriracha))
+Declaration(Class(:Strawberry))
+Declaration(Class(:Strawberry_Banana_Julius_Original))
+Declaration(Class(:Strawberry_Banana_Smoothie))
+Declaration(Class(:Strawberry_Lemonade))
+Declaration(Class(:Strawberry_Malt))
+Declaration(Class(:Strawberry_Milk))
+Declaration(Class(:Strawberry_Shake))
+Declaration(Class(:Strawberry_Soda))
+Declaration(Class(:Strawberry_Sundae))
+Declaration(Class(:Sugar_Cookie))
+Declaration(Class(:Sugar_Data))
+Declaration(Class(:Sugar_Ingredient))
+Declaration(Class(:Summer_Strawberry))
+Declaration(Class(:Summer_Strawberry_Salad_Dressing))
+Declaration(Class(:Sundae))
+Declaration(Class(:Sunflower_Lecithin_Ingredient))
+Declaration(Class(:Sunflower_Oil_Ingredient))
+Declaration(Class(:Sweet_Tea))
+Declaration(Class(:Sweet_and_Sour_Sauce))
+Declaration(Class(:Sweet_and_Spicy_Sriracha))
+Declaration(Class(:Taco_Salad))
+Declaration(Class(:Taquito_with_Cheese))
+Declaration(Class(:Tartar_Sauce))
+Declaration(Class(:Tea))
+Declaration(Class(:Teriyaki_Chicken))
+Declaration(Class(:Teriyaki_Sauce))
+Declaration(Class(:Third_Pound_Double_Patty_Cheeseburger))
+Declaration(Class(:Third_Pound_Hamburger))
+Declaration(Class(:Tiramisu_Shake))
+Declaration(Class(:Tomato_Ingredient))
+Declaration(Class(:Tomato_Sauce))
+Declaration(Class(:Tooth_Decay))
+Declaration(Class(:Trans_Fat_Data))
+Declaration(Class(:Triple_Chocolate_Brownie))
+Declaration(Class(:Triple_Patty_Hamburger))
+Declaration(Class(:Tropical_Berry_Lemonade))
+Declaration(Class(:Tumeric_Ingredient))
+Declaration(Class(:Turkey_BLT_Sandwich))
+Declaration(Class(:Type_II_Diabetes))
+Declaration(Class(:Unsaturated_Fat_Data))
+Declaration(Class(:Unsweetened_Tea))
+Declaration(Class(:Vanilla_Frosty_Cookie_Sundae))
+Declaration(Class(:Vanilla_MooLatte))
+Declaration(Class(:Vanilla_Shake))
+Declaration(Class(:Vegetarian_Burrito))
+Declaration(Class(:Vinegar_Ingredient))
+Declaration(Class(:Vitamin_A))
+Declaration(Class(:Vitamin_C))
+Declaration(Class(:Vitamin_D))
+Declaration(Class(:Waffle))
+Declaration(Class(:Waffle_Potato_Chips))
+Declaration(Class(:Water))
+Declaration(Class(:Water_Ingredient))
+Declaration(Class(:White_Castle))
+Declaration(Class(:White_Rice))
+Declaration(Class(:Wonder_Woman_Cookie_Collision_Blizzard_Cake))
+Declaration(Class(:Yeast_Ingredient))
+Declaration(Class(:disodium_dihydrogen_pyrophosphate_Ingredient))
+Declaration(Class(<http://sbmi.uth.edu/ontology/offf#Big_Breakfast_McDonald's>))
+Declaration(Class(<http://sbmi.uth.edu/ontology/offf#M&M_DQ_Treatzza_Pizza>))
+Declaration(Class(<http://sbmi.uth.edu/ontology/offf#Reese's_Mini_Blizzard_Cake>))
+Declaration(Class(<http://sbmi.uth.edu/ontology/offf#Reese's_Peanut_Butter_Cups_DQ_Treatzza_Pizza>))
+Declaration(ObjectProperty(:Influence))
+Declaration(ObjectProperty(:causedBy))
+Declaration(ObjectProperty(:causes))
+Declaration(ObjectProperty(:hasAllergens))
+Declaration(ObjectProperty(:hasDailyValue))
+Declaration(ObjectProperty(:hasIngredients))
+Declaration(ObjectProperty(:hasNutritionalComponents))
+Declaration(ObjectProperty(:hasNutritionalFact))
+Declaration(ObjectProperty(:hasPercentDailyValue))
+Declaration(ObjectProperty(:hasValue))
+Declaration(ObjectProperty(:lowers))
+Declaration(ObjectProperty(:offeredBy))
+Declaration(ObjectProperty(:raises))
+Declaration(DataProperty(:Amount))
+Declaration(DataProperty(:Amount_gram))
+Declaration(DataProperty(:Amount_milligram))
+Declaration(DataProperty(:DailyValue))
+Declaration(DataProperty(:Dairy))
+Declaration(DataProperty(:Egg))
+Declaration(DataProperty(:Fish))
+Declaration(DataProperty(:Gluten))
+Declaration(DataProperty(:MSG))
+Declaration(DataProperty(:Peanuts))
+Declaration(DataProperty(:PercentDailyValue))
+Declaration(DataProperty(:Shellfish))
+Declaration(DataProperty(:Soy))
+Declaration(DataProperty(:Treenuts))
+Declaration(DataProperty(:Weight))
+Declaration(DataProperty(:apple))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/creator>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/description>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: :Influence (:Influence)
+
+AnnotationAssertion(rdfs:comment :Influence "Nutritional component Influence health outcomes"@en)
+ObjectPropertyDomain(:Influence :Nutritional_Components)
+ObjectPropertyRange(:Influence :Health_Outcomes)
+
+# Object Property: :causedBy (:causedBy)
+
+AnnotationAssertion(rdfs:comment :causedBy "Health outcomes are caused by diet quality"@en)
+InverseObjectProperties(:causedBy :causes)
+ObjectPropertyDomain(:causedBy :Health_Outcomes)
+ObjectPropertyRange(:causedBy :Diet_Quality)
+
+# Object Property: :causes (:causes)
+
+ObjectPropertyDomain(:causes :Diet_Quality)
+ObjectPropertyRange(:causes :Health_Outcomes)
+
+# Object Property: :hasAllergens (:hasAllergens)
+
+ObjectPropertyDomain(:hasAllergens :NutritionalFact)
+ObjectPropertyRange(:hasAllergens :Allergens)
+
+# Object Property: :hasDailyValue (:hasDailyValue)
+
+AnnotationAssertion(rdfs:comment :hasDailyValue "Indicates the daily value of a nutritional component"@en)
+SubObjectPropertyOf(:hasDailyValue :hasValue)
+
+# Object Property: :hasIngredients (:hasIngredients)
+
+ObjectPropertyDomain(:hasIngredients :NutritionalFact)
+ObjectPropertyRange(:hasIngredients :Food_Ingredient)
+
+# Object Property: :hasNutritionalComponents (:hasNutritionalComponents)
+
+ObjectPropertyDomain(:hasNutritionalComponents :NutritionalFact)
+ObjectPropertyRange(:hasNutritionalComponents :Nutritional_Components)
+
+# Object Property: :hasNutritionalFact (:hasNutritionalFact)
+
+FunctionalObjectProperty(:hasNutritionalFact)
+ObjectPropertyDomain(:hasNutritionalFact :Food)
+ObjectPropertyRange(:hasNutritionalFact :NutritionalFact)
+
+# Object Property: :hasPercentDailyValue (:hasPercentDailyValue)
+
+AnnotationAssertion(rdfs:comment :hasPercentDailyValue "Indicates the daily percentage value of a nutritional component in a food item"@en)
+SubObjectPropertyOf(:hasPercentDailyValue :hasValue)
+
+# Object Property: :hasValue (:hasValue)
+
+AnnotationAssertion(rdfs:comment :hasValue "Nutritional component has value"@en)
+
+# Object Property: :lowers (:lowers)
+
+AnnotationAssertion(rdfs:comment :lowers "Excess trans fat lowers HDL Levels"@en)
+ObjectPropertyDomain(:lowers :Excess_Trans_Fat)
+ObjectPropertyRange(:lowers :HDL_Levels)
+
+# Object Property: :offeredBy (:offeredBy)
+
+ObjectPropertyDomain(:offeredBy :Fast_Food)
+ObjectPropertyRange(:offeredBy :Fast_Food_Restaurant)
+
+# Object Property: :raises (:raises)
+
+AnnotationAssertion(rdfs:comment :raises "Excess trans fat raises LDL levels"@en)
+ObjectPropertyDomain(:raises :Excess_Trans_Fat)
+ObjectPropertyRange(:raises :LDL_Levels)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: :Amount (:Amount)
+
+DataPropertyDomain(:Amount :Nutritional_Components)
+
+# Data Property: :Amount_gram (:Amount_gram)
+
+SubDataPropertyOf(:Amount_gram :Amount)
+
+# Data Property: :Amount_milligram (:Amount_milligram)
+
+SubDataPropertyOf(:Amount_milligram :Amount)
+DataPropertyDomain(:Amount_milligram :Nutritional_Components)
+DataPropertyRange(:Amount_milligram xsd:integer)
+
+# Data Property: :DailyValue (:DailyValue)
+
+FunctionalDataProperty(:DailyValue)
+DataPropertyDomain(:DailyValue :Nutritional_Components)
+DataPropertyRange(:DailyValue xsd:positiveInteger)
+
+# Data Property: :Dairy (:Dairy)
+
+DataPropertyDomain(:Dairy :Allergens)
+DataPropertyRange(:Dairy xsd:boolean)
+
+# Data Property: :Egg (:Egg)
+
+DataPropertyDomain(:Egg :Allergens)
+DataPropertyRange(:Egg xsd:boolean)
+
+# Data Property: :Fish (:Fish)
+
+DataPropertyDomain(:Fish :Allergens)
+DataPropertyRange(:Fish xsd:boolean)
+
+# Data Property: :Gluten (:Gluten)
+
+DataPropertyDomain(:Gluten :Allergens)
+DataPropertyRange(:Gluten xsd:boolean)
+
+# Data Property: :MSG (:MSG)
+
+DataPropertyDomain(:MSG :Allergens)
+DataPropertyRange(:MSG xsd:boolean)
+
+# Data Property: :PercentDailyValue (:PercentDailyValue)
+
+FunctionalDataProperty(:PercentDailyValue)
+DataPropertyDomain(:PercentDailyValue :Nutritional_Components)
+DataPropertyRange(:PercentDailyValue xsd:decimal)
+
+# Data Property: :Shellfish (:Shellfish)
+
+DataPropertyDomain(:Shellfish :Allergens)
+DataPropertyRange(:Shellfish xsd:boolean)
+
+# Data Property: :Soy (:Soy)
+
+DataPropertyDomain(:Soy :Allergens)
+DataPropertyRange(:Soy xsd:boolean)
+
+# Data Property: :Treenuts (:Treenuts)
+
+DataPropertyDomain(:Treenuts :Allergens)
+DataPropertyRange(:Treenuts xsd:boolean)
+
+# Data Property: :Weight (:Weight)
+
+DataPropertyDomain(:Weight :Serving_Size_Data)
+DataPropertyRange(:Weight xsd:string)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: :Added_Sugar_Data (:Added_Sugar_Data)
+
+SubClassOf(:Added_Sugar_Data :Sugar_Data)
+
+# Class: :All_Natural_Lemonade (:All_Natural_Lemonade)
+
+SubClassOf(:All_Natural_Lemonade :Lemonade)
+
+# Class: :Americano (:Americano)
+
+SubClassOf(:Americano :Coffee)
+
+# Class: :Annatto_Ingredient (:Annatto_Ingredient)
+
+SubClassOf(:Annatto_Ingredient :Food_Ingredient)
+
+# Class: :Apple_Bites (:Apple_Bites)
+
+AnnotationAssertion(owl:deprecated :Apple_Bites "true"^^xsd:boolean)
+SubClassOf(:Apple_Bites :Apple_Slices)
+
+# Class: :Apple_Juice (:Apple_Juice)
+
+SubClassOf(:Apple_Juice :Fruit_Juice)
+
+# Class: :Apple_Pecan_Chicken_Salad (:Apple_Pecan_Chicken_Salad)
+
+SubClassOf(:Apple_Pecan_Chicken_Salad :Chicken_Salad)
+
+# Class: :Apple_Pecan_Chicken_Salad_Dressing (:Apple_Pecan_Chicken_Salad_Dressing)
+
+SubClassOf(:Apple_Pecan_Chicken_Salad_Dressing :Salad_Dressing)
+
+# Class: :Apple_Pie (:Apple_Pie)
+
+SubClassOf(:Apple_Pie :Pie)
+
+# Class: :Apple_Slices (:Apple_Slices)
+
+SubClassOf(:Apple_Slices :Fast_Food_Sides)
+
+# Class: :Apple_and_Cranberry_Chicken_Salad (:Apple_and_Cranberry_Chicken_Salad)
+
+SubClassOf(:Apple_and_Cranberry_Chicken_Salad :Chicken_Salad)
+
+# Class: :Applesauce (:Applesauce)
+
+SubClassOf(:Applesauce :Fast_Food_Sides)
+
+# Class: :Asian_Beef_Dish (:Asian_Beef_Dish)
+
+SubClassOf(:Asian_Beef_Dish :Fast_Food_Asian_Dish)
+
+# Class: :Asian_Chicken_Breast_Dish (:Asian_Chicken_Breast_Dish)
+
+SubClassOf(:Asian_Chicken_Breast_Dish :Asian_Chicken_Dish)
+
+# Class: :Asian_Chicken_Dish (:Asian_Chicken_Dish)
+
+SubClassOf(:Asian_Chicken_Dish :Fast_Food_Asian_Dish)
+
+# Class: :Asian_Noodle_Dish (:Asian_Noodle_Dish)
+
+SubClassOf(:Asian_Noodle_Dish :Fast_Food_Asian_Dish)
+
+# Class: :Asian_Seafood_Dish (:Asian_Seafood_Dish)
+
+SubClassOf(:Asian_Seafood_Dish :Fast_Food_Asian_Dish)
+
+# Class: :BBQ_Sauce (:BBQ_Sauce)
+
+SubClassOf(:BBQ_Sauce :Fast_Food_Condiment)
+
+# Class: :Bacon_Egg_and_Cheese_Bagel (:Bacon_Egg_and_Cheese_Bagel)
+
+SubClassOf(:Bacon_Egg_and_Cheese_Bagel :Breakfast_Bagel_Sandwich)
+
+# Class: :Bacon_Egg_and_Cheese_Biscuit (:Bacon_Egg_and_Cheese_Biscuit)
+
+SubClassOf(:Bacon_Egg_and_Cheese_Biscuit :Breakfast_Biscuit_Sandwich)
+
+# Class: :Bacon_Egg_and_Cheese_McGriddles (:Bacon_Egg_and_Cheese_McGriddles)
+
+SubClassOf(:Bacon_Egg_and_Cheese_McGriddles :McGriddles)
+
+# Class: :Bacon_Egg_and_Swiss_Croissant (:Bacon_Egg_and_Swiss_Croissant)
+
+SubClassOf(:Bacon_Egg_and_Swiss_Croissant :Croissant_Sandwich)
+
+# Class: :Bacon_Jalapeno_Cheeseburger (:Bacon_Jalapeno_Cheeseburger)
+
+SubClassOf(:Bacon_Jalapeno_Cheeseburger :Cheeseburger)
+
+# Class: :Bacon_Jalapeno_Chicken_Sandwich (:Bacon_Jalapeno_Chicken_Sandwich)
+
+SubClassOf(:Bacon_Jalapeno_Chicken_Sandwich :Chicken_Sandwich)
+
+# Class: :Bacon_Lettuce_and_Tomato_Sandwich (:Bacon_Lettuce_and_Tomato_Sandwich)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#prefLabel> :Bacon_Lettuce_and_Tomato_Sandwich "BLT Sandwich")
+SubClassOf(:Bacon_Lettuce_and_Tomato_Sandwich :Fast_Food_Sandwich)
+
+# Class: :Bacon_and_Cheese_Hamburger (:Bacon_and_Cheese_Hamburger)
+
+SubClassOf(:Bacon_and_Cheese_Hamburger :Hamburger_with_Bacon)
+
+# Class: :Banana (:Banana)
+
+SubClassOf(:Banana :Fruit)
+
+# Class: :Banana_Shake (:Banana_Shake)
+
+SubClassOf(:Banana_Shake :Shake)
+
+# Class: :Banana_Split (:Banana_Split)
+
+SubClassOf(:Banana_Split :Royal_Treats)
+
+# Class: :Barbecue_Cheeseburger (:Barbecue_Cheeseburger)
+
+SubClassOf(:Barbecue_Cheeseburger :Cheeseburger)
+
+# Class: :Bean_Burrito (:Bean_Burrito)
+
+SubClassOf(:Bean_Burrito :Fast_Food_Burrito)
+
+# Class: :Beef_Burrito (:Beef_Burrito)
+
+SubClassOf(:Beef_Burrito :Fast_Food_Burrito)
+
+# Class: :Beef_Ingredient (:Beef_Ingredient)
+
+SubClassOf(:Beef_Ingredient :Food_Ingredient)
+
+# Class: :Beijing_Beef (:Beijing_Beef)
+
+SubClassOf(:Beijing_Beef :Asian_Beef_Dish)
+
+# Class: :Beta_Carotene_Ingredient (:Beta_Carotene_Ingredient)
+
+SubClassOf(:Beta_Carotene_Ingredient :Food_Ingredient)
+
+# Class: :Big_Breakfast (:Big_Breakfast)
+
+SubClassOf(:Big_Breakfast <http://sbmi.uth.edu/ontology/offf#Big_Breakfast_McDonald's>)
+
+# Class: :Big_Breakfast_Hotcakes (:Big_Breakfast_Hotcakes)
+
+SubClassOf(:Big_Breakfast_Hotcakes <http://sbmi.uth.edu/ontology/offf#Big_Breakfast_McDonald's>)
+
+# Class: :Big_Breakfast_with_Hotcakes (:Big_Breakfast_with_Hotcakes)
+
+SubClassOf(:Big_Breakfast_with_Hotcakes :Big_Breakfast)
+
+# Class: :Biscuit_and_Gravy (:Biscuit_and_Gravy)
+
+SubClassOf(:Biscuit_and_Gravy :Breakfast_Biscuit_Sandwich)
+
+# Class: :Biscuit_with_Bacon (:Biscuit_with_Bacon)
+
+SubClassOf(:Biscuit_with_Bacon :Breakfast_Biscuit_Sandwich)
+
+# Class: :Biscuit_with_Sausage (:Biscuit_with_Sausage)
+
+SubClassOf(:Biscuit_with_Sausage :Breakfast_Biscuit_Sandwich)
+
+# Class: :Black_Pepper_Beef (:Black_Pepper_Beef)
+
+SubClassOf(:Black_Pepper_Beef :Asian_Beef_Dish)
+
+# Class: :Black_Tea_Ingredient (:Black_Tea_Ingredient)
+
+SubClassOf(:Black_Tea_Ingredient :Food_Ingredient)
+
+# Class: :Blizzard_Cake (:Blizzard_Cake)
+
+AnnotationAssertion(owl:deprecated :Blizzard_Cake "true"^^xsd:boolean)
+SubClassOf(:Blizzard_Cake :Cake)
+
+# Class: :Blizzard_Treat (:Blizzard_Treat)
+
+SubClassOf(:Blizzard_Treat :Fast_Food_Dessert)
+
+# Class: :Blue_Raspberry_Slushie (:Blue_Raspberry_Slushie)
+
+SubClassOf(:Blue_Raspberry_Slushie :Slushie)
+
+# Class: :Breakfast_Bacon (:Breakfast_Bacon)
+
+SubClassOf(:Breakfast_Bacon :Fast_Food_Breakfast_Item)
+
+# Class: :Breakfast_Baconator (:Breakfast_Baconator)
+
+SubClassOf(:Breakfast_Baconator :Breakfast_Bacon)
+
+# Class: :Breakfast_Bagel_Sandwich (:Breakfast_Bagel_Sandwich)
+
+SubClassOf(:Breakfast_Bagel_Sandwich :Breakfast_Sandwich)
+
+# Class: :Breakfast_Biscuit_Sandwich (:Breakfast_Biscuit_Sandwich)
+
+SubClassOf(:Breakfast_Biscuit_Sandwich :Breakfast_Sandwich)
+
+# Class: :Breakfast_Burritos (:Breakfast_Burritos)
+
+SubClassOf(:Breakfast_Burritos :Fast_Food_Breakfast_Item)
+
+# Class: :Breakfast_Oats_Item (:Breakfast_Oats_Item)
+
+SubClassOf(:Breakfast_Oats_Item :Fast_Food_Breakfast_Item)
+
+# Class: :Breakfast_Platter (:Breakfast_Platter)
+
+SubClassOf(:Breakfast_Platter :Fast_Food_Breakfast_Item)
+
+# Class: :Breakfast_Platter_Whataburgers (:Breakfast_Platter_Whataburgers)
+
+SubClassOf(:Breakfast_Platter_Whataburgers :Breakfast_Platter)
+
+# Class: :Breakfast_Sandwich (:Breakfast_Sandwich)
+
+SubClassOf(:Breakfast_Sandwich :Fast_Food_Breakfast_Item)
+
+# Class: :Breakfast_Sausage_Burrito (:Breakfast_Sausage_Burrito)
+
+SubClassOf(:Breakfast_Sausage_Burrito :Breakfast_Burritos)
+
+# Class: :Brown_Rice (:Brown_Rice)
+
+SubClassOf(:Brown_Rice :Rice)
+
+# Class: :Brownie (:Brownie)
+
+SubClassOf(:Brownie :Fast_Food_Dessert)
+
+# Class: :Brownie_and_Oreo_Cupfection (:Brownie_and_Oreo_Cupfection)
+
+SubClassOf(:Brownie_and_Oreo_Cupfection :Royal_Treats)
+
+# Class: :Buster_Bar (:Buster_Bar)
+
+SubClassOf(:Buster_Bar :Ice_Cream_Bar)
+
+# Class: :Buttermilk_Crispy_Chicken_Sandwich (:Buttermilk_Crispy_Chicken_Sandwich)
+
+SubClassOf(:Buttermilk_Crispy_Chicken_Sandwich :Crispy_Chicken_Sandwich)
+
+# Class: :Cake (:Cake)
+
+SubClassOf(:Cake :Fast_Food_Dessert)
+
+# Class: :Calcium (:Calcium)
+
+SubClassOf(:Calcium :Nutritional_Components)
+
+# Class: :Calories_Data (:Calories_Data)
+
+SubClassOf(:Calories_Data :Nutritional_Components)
+
+# Class: :Calories_Fat_Data (:Calories_Fat_Data)
+
+SubClassOf(:Calories_Fat_Data :Calories_Data)
+
+# Class: :Canola_Oil_ingredient (:Canola_Oil_ingredient)
+
+SubClassOf(:Canola_Oil_ingredient :Food_Ingredient)
+
+# Class: :Cappuccino (:Cappuccino)
+
+SubClassOf(:Cappuccino :Coffee)
+
+# Class: :Caramel_Cappuccino (:Caramel_Cappuccino)
+
+SubClassOf(:Caramel_Cappuccino :Cappuccino)
+
+# Class: :Caramel_Frappe (:Caramel_Frappe)
+
+SubClassOf(:Caramel_Frappe :Frappe)
+
+# Class: :Caramel_Latte (:Caramel_Latte)
+
+SubClassOf(:Caramel_Latte :Latte)
+
+# Class: :Caramel_Macchiato (:Caramel_Macchiato)
+
+SubClassOf(:Caramel_Macchiato :Macchiato)
+
+# Class: :Caramel_Mocha (:Caramel_Mocha)
+
+SubClassOf(:Caramel_Mocha :Mocha)
+
+# Class: :Caramel_MooLatte (:Caramel_MooLatte)
+
+SubClassOf(:Caramel_MooLatte :Cold_Coffee)
+SubClassOf(:Caramel_MooLatte :Latte)
+
+# Class: :Caramel_Shake (:Caramel_Shake)
+
+SubClassOf(:Caramel_Shake :Shake)
+
+# Class: :Caramel_Sundae (:Caramel_Sundae)
+
+SubClassOf(:Caramel_Sundae :Sundae)
+
+# Class: :Carbohydrates_Data (:Carbohydrates_Data)
+
+SubClassOf(:Carbohydrates_Data :Nutritional_Components)
+
+# Class: :Carbonated_Water (:Carbonated_Water)
+
+SubClassOf(:Carbonated_Water :Water)
+
+# Class: :Cheese_Curds (:Cheese_Curds)
+
+SubClassOf(:Cheese_Curds :Fast_Food_Sides)
+
+# Class: :Cheese_Rice_and_Bean_Burrito (:Cheese_Rice_and_Bean_Burrito)
+
+SubClassOf(:Cheese_Rice_and_Bean_Burrito :Bean_Burrito)
+
+# Class: :Cheese_ingredient (:Cheese_ingredient)
+
+SubClassOf(:Cheese_ingredient :Food_Ingredient)
+
+# Class: :Cheeseburger (:Cheeseburger)
+
+SubClassOf(:Cheeseburger :Hamburger)
+
+# Class: :Cheesecake (:Cheesecake)
+
+SubClassOf(:Cheesecake :Cake)
+
+# Class: :Chicken_BLT_Salad (:Chicken_BLT_Salad)
+
+SubClassOf(:Chicken_BLT_Salad :Chicken_Salad)
+
+# Class: :Chicken_Bacon_Ranch_Artisan-Style_Sandwich (:Chicken_Bacon_Ranch_Artisan-Style_Sandwich)
+
+SubClassOf(:Chicken_Bacon_Ranch_Artisan-Style_Sandwich :Chicken_Sandwich)
+SubClassOf(:Chicken_Bacon_Ranch_Artisan-Style_Sandwich :Fast_Food_Sandwich)
+
+# Class: :Chicken_Biscuit (:Chicken_Biscuit)
+
+SubClassOf(:Chicken_Biscuit :Breakfast_Biscuit_Sandwich)
+
+# Class: :Chicken_Burrito (:Chicken_Burrito)
+
+SubClassOf(:Chicken_Burrito :Fast_Food_Burrito)
+
+# Class: :Chicken_Ingredient (:Chicken_Ingredient)
+
+SubClassOf(:Chicken_Ingredient :Food_Ingredient)
+
+# Class: :Chicken_McNuggets (:Chicken_McNuggets)
+
+SubClassOf(:Chicken_McNuggets :Chicken_Nuggets)
+
+# Class: :Chicken_Noodle_Soup (:Chicken_Noodle_Soup)
+
+SubClassOf(:Chicken_Noodle_Soup :Noodles)
+SubClassOf(:Chicken_Noodle_Soup :Soup)
+
+# Class: :Chicken_Nuggets (:Chicken_Nuggets)
+
+SubClassOf(:Chicken_Nuggets :Fast_Food_Chicken)
+
+# Class: :Chicken_Rings (:Chicken_Rings)
+
+SubClassOf(:Chicken_Rings :Fast_Food_Sides)
+
+# Class: :Chicken_Salad (:Chicken_Salad)
+
+SubClassOf(:Chicken_Salad :Fast_Food_Salad)
+
+# Class: :Chicken_Sandwich (:Chicken_Sandwich)
+
+SubClassOf(:Chicken_Sandwich :Fast_Food_Sandwich)
+
+# Class: :Chicken_Strip (:Chicken_Strip)
+
+SubClassOf(:Chicken_Strip :Fast_Food_Chicken)
+
+# Class: :Chicken_Strip_Basket (:Chicken_Strip_Basket)
+
+SubClassOf(:Chicken_Strip_Basket :Fast_Food_Chicken)
+
+# Class: :Chili_Cheese_Hot_Dog (:Chili_Cheese_Hot_Dog)
+
+SubClassOf(:Chili_Cheese_Hot_Dog :Hot_Dog)
+
+# Class: :Chilli_Sauce (:Chilli_Sauce)
+
+SubClassOf(:Chilli_Sauce :Fast_Food_Condiment)
+
+# Class: :Choco_Brownie_Treatzza_Pizza (:Choco_Brownie_Treatzza_Pizza)
+
+AnnotationAssertion(owl:deprecated :Choco_Brownie_Treatzza_Pizza "true"^^xsd:boolean)
+SubClassOf(:Choco_Brownie_Treatzza_Pizza :DQ_Treatzza_Pizza)
+
+# Class: :Choco_Brownie_Xtreme_Blizzard_Cake (:Choco_Brownie_Xtreme_Blizzard_Cake)
+
+AnnotationAssertion(owl:deprecated :Choco_Brownie_Xtreme_Blizzard_Cake "true"^^xsd:boolean)
+SubClassOf(:Choco_Brownie_Xtreme_Blizzard_Cake :Blizzard_Cake)
+
+# Class: :Chocolate_Cake_Shake (:Chocolate_Cake_Shake)
+
+SubClassOf(:Chocolate_Cake_Shake :Shake)
+
+# Class: :Chocolate_Chip_Cookie (:Chocolate_Chip_Cookie)
+
+SubClassOf(:Chocolate_Chip_Cookie :Cookie)
+
+# Class: :Chocolate_Chunk_Cookie (:Chocolate_Chunk_Cookie)
+
+SubClassOf(:Chocolate_Chunk_Cookie :Cookie)
+
+# Class: :Chocolate_Dipped_Cone (:Chocolate_Dipped_Cone)
+
+SubClassOf(:Chocolate_Dipped_Cone :Cone)
+
+# Class: :Chocolate_Frosty_Cookie_Sundae (:Chocolate_Frosty_Cookie_Sundae)
+
+SubClassOf(:Chocolate_Frosty_Cookie_Sundae :Sundae)
+
+# Class: :Chocolate_Malt (:Chocolate_Malt)
+
+EquivalentClasses(:Chocolate_Malt :Chocolate_Shake)
+SubClassOf(:Chocolate_Malt :Shake)
+
+# Class: :Chocolate_Milk (:Chocolate_Milk)
+
+SubClassOf(:Chocolate_Milk :Milk)
+
+# Class: :Chocolate_Shake (:Chocolate_Shake)
+
+SubClassOf(:Chocolate_Shake :Shake)
+
+# Class: :Chocolate_Sundae (:Chocolate_Sundae)
+
+SubClassOf(:Chocolate_Sundae :Sundae)
+
+# Class: :Cholesterol_Data (:Cholesterol_Data)
+
+SubClassOf(:Cholesterol_Data :Nutritional_Components)
+
+# Class: :Chow_Mein (:Chow_Mein)
+
+SubClassOf(:Chow_Mein :Asian_Noodle_Dish)
+SubClassOf(:Chow_Mein :Fried_Noodles)
+
+# Class: :Cinnamon_Roll (:Cinnamon_Roll)
+
+SubClassOf(:Cinnamon_Roll :Fast_Food_Dessert)
+
+# Class: :Citric_Acid_Ingredient (:Citric_Acid_Ingredient)
+
+SubClassOf(:Citric_Acid_Ingredient :Food_Ingredient)
+
+# Class: :Citrus_Soda (:Citrus_Soda)
+
+SubClassOf(:Citrus_Soda :Soft_Drink)
+
+# Class: :Clam_Strips (:Clam_Strips)
+
+SubClassOf(:Clam_Strips :Fast_Food_Sides)
+
+# Class: :Classic_Bacon_Egg_and_Cheese_Sandwich (:Classic_Bacon_Egg_and_Cheese_Sandwich)
+
+SubClassOf(:Classic_Bacon_Egg_and_Cheese_Sandwich :Fast_Food_Sandwich)
+
+# Class: :Classic_Sausage_Egg_and_Cheese_Sandwich (:Classic_Sausage_Egg_and_Cheese_Sandwich)
+
+SubClassOf(:Classic_Sausage_Egg_and_Cheese_Sandwich :Fast_Food_Sandwich)
+
+# Class: :Club_Soda (:Club_Soda)
+
+SubClassOf(:Club_Soda :Carbonated_Water)
+
+# Class: :Cobb_Salad (:Cobb_Salad)
+
+SubClassOf(:Cobb_Salad :Fast_Food_Salad)
+
+# Class: :Cocoa_Cola_Soft_Drink (:Cocoa_Cola_Soft_Drink)
+
+SubClassOf(:Cocoa_Cola_Soft_Drink :Dark_Soda)
+
+# Class: :Coffee (:Coffee)
+
+SubClassOf(:Coffee :Fast_Food_Beverage)
+
+# Class: :Coke_Soft_Drink (:Coke_Soft_Drink)
+
+SubClassOf(:Coke_Soft_Drink :Dark_Soda)
+
+# Class: :Cold_Coffee (:Cold_Coffee)
+
+SubClassOf(:Cold_Coffee :Coffee)
+
+# Class: :Cone (:Cone)
+
+SubClassOf(:Cone :Ice_Cream)
+
+# Class: :Cone_Kids_Dairy_Queen (:Cone_Kids_Dairy_Queen)
+
+SubClassOf(:Cone_Kids_Dairy_Queen :Cone)
+
+# Class: :Cookie (:Cookie)
+
+SubClassOf(:Cookie :Fast_Food_Dessert)
+
+# Class: :Cookie_Dough_Blizzard_Cake (:Cookie_Dough_Blizzard_Cake)
+
+AnnotationAssertion(owl:deprecated :Cookie_Dough_Blizzard_Cake "true"^^xsd:boolean)
+SubClassOf(:Cookie_Dough_Blizzard_Cake :Blizzard_Cake)
+
+# Class: :Cotton_Candy_Dipped_Cone (:Cotton_Candy_Dipped_Cone)
+
+SubClassOf(:Cotton_Candy_Dipped_Cone :Cone)
+
+# Class: :Cream_Ingredient (:Cream_Ingredient)
+
+SubClassOf(:Cream_Ingredient :Food_Ingredient)
+
+# Class: :Cream_Soda (:Cream_Soda)
+
+SubClassOf(:Cream_Soda :Soft_Drink)
+
+# Class: :Crispy_Chicken_BLT (:Crispy_Chicken_BLT)
+
+SubClassOf(:Crispy_Chicken_BLT :Crispy_Chicken_Sandwich)
+
+# Class: :Crispy_Chicken_Nuggets (:Crispy_Chicken_Nuggets)
+
+SubClassOf(:Crispy_Chicken_Nuggets :Chicken_Nuggets)
+
+# Class: :Crispy_Chicken_Sandwich (:Crispy_Chicken_Sandwich)
+
+SubClassOf(:Crispy_Chicken_Sandwich :Chicken_Sandwich)
+
+# Class: :Croissant_Sandwich (:Croissant_Sandwich)
+
+SubClassOf(:Croissant_Sandwich :Fast_Food_Sandwich)
+
+# Class: :Crunch_Taco (:Crunch_Taco)
+
+SubClassOf(:Crunch_Taco :Hard_Taco)
+
+# Class: :Crunchy_Taco_Supreme (:Crunchy_Taco_Supreme)
+
+SubClassOf(:Crunchy_Taco_Supreme :Crunch_Taco)
+
+# Class: :Cucumbers_Ingredient (:Cucumbers_Ingredient)
+
+SubClassOf(:Cucumbers_Ingredient :Food_Ingredient)
+
+# Class: :Culture_Ingredient (:Culture_Ingredient)
+
+SubClassOf(:Culture_Ingredient :Food_Ingredient)
+
+# Class: :DQ_Treatzza_Pizza (:DQ_Treatzza_Pizza)
+
+AnnotationAssertion(owl:deprecated :DQ_Treatzza_Pizza "true"^^xsd:boolean)
+SubClassOf(:DQ_Treatzza_Pizza :Cake)
+
+# Class: :Dairy_Queen_Signature_All_Ocassion_Round_Cake (:Dairy_Queen_Signature_All_Ocassion_Round_Cake)
+
+AnnotationAssertion(owl:deprecated :Dairy_Queen_Signature_All_Ocassion_Round_Cake "true"^^xsd:boolean)
+SubClassOf(:Dairy_Queen_Signature_All_Ocassion_Round_Cake :Cake)
+
+# Class: :Dairy_Queen_Signature_All_Ocassion_Sheet_Cake (:Dairy_Queen_Signature_All_Ocassion_Sheet_Cake)
+
+AnnotationAssertion(owl:deprecated :Dairy_Queen_Signature_All_Ocassion_Sheet_Cake "true"^^xsd:boolean)
+SubClassOf(:Dairy_Queen_Signature_All_Ocassion_Sheet_Cake :Cake)
+
+# Class: :Dark_Soda (:Dark_Soda)
+
+SubClassOf(:Dark_Soda :Soft_Drink)
+
+# Class: :Decaffeinated_Coffee (:Decaffeinated_Coffee)
+
+SubClassOf(:Decaffeinated_Coffee :Coffee)
+
+# Class: :Dextrose_Ingredient (:Dextrose_Ingredient)
+
+SubClassOf(:Dextrose_Ingredient :Food_Ingredient)
+
+# Class: :Diet_Coke_Soft_Drink (:Diet_Coke_Soft_Drink)
+
+SubClassOf(:Diet_Coke_Soft_Drink :Coke_Soft_Drink)
+SubClassOf(:Diet_Coke_Soft_Drink :Diet_Soft_Drink)
+
+# Class: :Diet_Soft_Drink (:Diet_Soft_Drink)
+
+SubClassOf(:Diet_Soft_Drink :Soft_Drink)
+
+# Class: :Dietary_Fibre_Data (:Dietary_Fibre_Data)
+
+SubClassOf(:Dietary_Fibre_Data :Carbohydrates_Data)
+
+# Class: :Dilly_Bar (:Dilly_Bar)
+
+SubClassOf(:Dilly_Bar :Ice_Cream_Bar)
+
+# Class: :Dipped_Strawberry_Cake_Cupfection (:Dipped_Strawberry_Cake_Cupfection)
+
+SubClassOf(:Dipped_Strawberry_Cake_Cupfection :Royal_Treats)
+
+# Class: :Donut (:Donut)
+
+SubClassOf(:Donut :Fast_Food_Sides)
+
+# Class: :Double_Patty_Cheese_Burger (:Double_Patty_Cheese_Burger)
+
+SubClassOf(:Double_Patty_Cheese_Burger :Cheeseburger)
+
+# Class: :Double_Patty_Hamburger (:Double_Patty_Hamburger)
+
+SubClassOf(:Double_Patty_Hamburger :Hamburger)
+
+# Class: :Double_Quarter_Pounder_with_Cheese (:Double_Quarter_Pounder_with_Cheese)
+
+SubClassOf(:Double_Quarter_Pounder_with_Cheese :Hamburger)
+
+# Class: :Dr_Pepper_Shake (:Dr_Pepper_Shake)
+
+SubClassOf(:Dr_Pepper_Shake :Shake)
+
+# Class: :Dr_Pepper_Soft_Drink (:Dr_Pepper_Soft_Drink)
+
+SubClassOf(:Dr_Pepper_Soft_Drink :Dark_Soda)
+
+# Class: :Egg_McMuffin (:Egg_McMuffin)
+
+SubClassOf(:Egg_McMuffin :McMuffin)
+
+# Class: :Egg_and_Cheese_Biscuit (:Egg_and_Cheese_Biscuit)
+
+SubClassOf(:Egg_and_Cheese_Biscuit :Breakfast_Biscuit_Sandwich)
+
+# Class: :Enzymes_Ingredient (:Enzymes_Ingredient)
+
+SubClassOf(:Enzymes_Ingredient :Food_Ingredient)
+
+# Class: :Excess_Fat (:Excess_Fat)
+
+SubClassOf(:Excess_Fat :Diet_Quality)
+
+# Class: :Excess_Sodium (:Excess_Sodium)
+
+SubClassOf(:Excess_Sodium :Diet_Quality)
+
+# Class: :Excess_Sugar (:Excess_Sugar)
+
+SubClassOf(:Excess_Sugar :Diet_Quality)
+
+# Class: :Excess_Trans_Fat (:Excess_Trans_Fat)
+
+SubClassOf(:Excess_Trans_Fat :Diet_Quality)
+SubClassOf(:Excess_Trans_Fat ObjectSomeValuesFrom(:lowers :HDL_Levels))
+SubClassOf(:Excess_Trans_Fat ObjectSomeValuesFrom(:raises :LDL_Levels))
+
+# Class: :Fanta_Soft_Drink (:Fanta_Soft_Drink)
+
+SubClassOf(:Fanta_Soft_Drink :Fruit_Soda)
+
+# Class: :Fast_Food (:Fast_Food)
+
+SubClassOf(:Fast_Food :Food)
+
+# Class: :Fast_Food_Asian_Dish (:Fast_Food_Asian_Dish)
+
+SubClassOf(:Fast_Food_Asian_Dish :Fast_Food)
+
+# Class: :Fast_Food_Beverage (:Fast_Food_Beverage)
+
+SubClassOf(:Fast_Food_Beverage :Fast_Food)
+
+# Class: :Fast_Food_Breakfast_Item (:Fast_Food_Breakfast_Item)
+
+SubClassOf(:Fast_Food_Breakfast_Item :Fast_Food)
+
+# Class: :Fast_Food_Burrito (:Fast_Food_Burrito)
+
+SubClassOf(:Fast_Food_Burrito :Fast_Food)
+
+# Class: :Fast_Food_Chicken (:Fast_Food_Chicken)
+
+SubClassOf(:Fast_Food_Chicken :Fast_Food)
+
+# Class: :Fast_Food_Condiment (:Fast_Food_Condiment)
+
+SubClassOf(:Fast_Food_Condiment :Fast_Food)
+
+# Class: :Fast_Food_Dessert (:Fast_Food_Dessert)
+
+SubClassOf(:Fast_Food_Dessert :Fast_Food)
+
+# Class: :Fast_Food_Salad (:Fast_Food_Salad)
+
+SubClassOf(:Fast_Food_Salad :Fast_Food)
+
+# Class: :Fast_Food_Sandwich (:Fast_Food_Sandwich)
+
+SubClassOf(:Fast_Food_Sandwich :Fast_Food)
+
+# Class: :Fast_Food_Sides (:Fast_Food_Sides)
+
+SubClassOf(:Fast_Food_Sides :Fast_Food)
+
+# Class: :Fast_Food_Taco (:Fast_Food_Taco)
+
+SubClassOf(:Fast_Food_Taco :Fast_Food)
+
+# Class: :Fat_Data (:Fat_Data)
+
+SubClassOf(:Fat_Data :Nutritional_Components)
+
+# Class: :Fish_Fries (:Fish_Fries)
+
+SubClassOf(:Fish_Fries :Fries)
+
+# Class: :Fish_Sandwich (:Fish_Sandwich)
+
+SubClassOf(:Fish_Sandwich :Fast_Food_Sandwich)
+
+# Class: :Flour_Ingredient (:Flour_Ingredient)
+
+SubClassOf(:Flour_Ingredient :Food_Ingredient)
+
+# Class: :Fortune_Cookie (:Fortune_Cookie)
+
+SubClassOf(:Fortune_Cookie :Cookie)
+
+# Class: :Frappe (:Frappe)
+
+SubClassOf(:Frappe :Coffee)
+SubClassOf(:Frappe :Cold_Coffee)
+
+# Class: :French_Vanilla_Cappuccino (:French_Vanilla_Cappuccino)
+
+SubClassOf(:French_Vanilla_Cappuccino :Cappuccino)
+
+# Class: :French_Vanilla_Latte (:French_Vanilla_Latte)
+
+SubClassOf(:French_Vanilla_Latte :Latte)
+
+# Class: :Fried_Cheese (:Fried_Cheese)
+
+SubClassOf(:Fried_Cheese :Fries)
+
+# Class: :Fried_Noodles (:Fried_Noodles)
+
+SubClassOf(:Fried_Noodles :Noodles)
+
+# Class: :Fried_Rice (:Fried_Rice)
+
+SubClassOf(:Fried_Rice :Rice)
+
+# Class: :Fries (:Fries)
+
+SubClassOf(:Fries :Fast_Food_Sides)
+
+# Class: :Frosted_Coffee (:Frosted_Coffee)
+
+SubClassOf(:Frosted_Coffee :Coffee)
+
+# Class: :Frosted_Lemonade (:Frosted_Lemonade)
+
+SubClassOf(:Frosted_Lemonade :Lemonade)
+
+# Class: :Fruit (:Fruit)
+
+SubClassOf(:Fruit :Fast_Food_Sides)
+
+# Class: :Fruit_Cup (:Fruit_Cup)
+
+SubClassOf(:Fruit_Cup :Fast_Food_Sides)
+
+# Class: :Fruit_Juice (:Fruit_Juice)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> :Fruit_Juice "Fruit Drink")
+SubClassOf(:Fruit_Juice :Fast_Food_Beverage)
+
+# Class: :Fruit_Punch_Slushie (:Fruit_Punch_Slushie)
+
+SubClassOf(:Fruit_Punch_Slushie :Slushie)
+
+# Class: :Fruit_Punch_Soda (:Fruit_Punch_Soda)
+
+SubClassOf(:Fruit_Punch_Soda :Fruit_Soda)
+
+# Class: :Fruit_Soda (:Fruit_Soda)
+
+SubClassOf(:Fruit_Soda :Soft_Drink)
+
+# Class: :Fruit_and_Maple_Oatmeal (:Fruit_and_Maple_Oatmeal)
+
+SubClassOf(:Fruit_and_Maple_Oatmeal :Breakfast_Oats_Item)
+
+# Class: :Fudge_Stuffed_Cookie (:Fudge_Stuffed_Cookie)
+
+SubClassOf(:Fudge_Stuffed_Cookie :Cookie)
+
+# Class: :Garden_Herb_Ranch (:Garden_Herb_Ranch)
+
+SubClassOf(:Garden_Herb_Ranch :Ranch)
+
+# Class: :Garden_Salad (:Garden_Salad)
+
+SubClassOf(:Garden_Salad :Fast_Food_Salad)
+
+# Class: :Ginger_Ale (:Ginger_Ale)
+
+SubClassOf(:Ginger_Ale :Light_Soda)
+
+# Class: :Green_Tea (:Green_Tea)
+
+SubClassOf(:Green_Tea :Tea)
+
+# Class: :Grilled_Asiago_Ranch_Club (:Grilled_Asiago_Ranch_Club)
+
+SubClassOf(:Grilled_Asiago_Ranch_Club :Chicken_Sandwich)
+
+# Class: :Grilled_Avocado_BLT_Chicken_Sandwich (:Grilled_Avocado_BLT_Chicken_Sandwich)
+
+SubClassOf(:Grilled_Avocado_BLT_Chicken_Sandwich :Chicken_Sandwich)
+
+# Class: :Grilled_Bacon_Jalapeno_Chicken_Sandwich (:Grilled_Bacon_Jalapeno_Chicken_Sandwich)
+
+SubClassOf(:Grilled_Bacon_Jalapeno_Chicken_Sandwich :Chicken_Sandwich)
+
+# Class: :Grilled_Barbecue_Chicken_Sandwich (:Grilled_Barbecue_Chicken_Sandwich)
+
+SubClassOf(:Grilled_Barbecue_Chicken_Sandwich :Chicken_Sandwich)
+
+# Class: :Grilled_Chicken_Sandwich (:Grilled_Chicken_Sandwich)
+
+SubClassOf(:Grilled_Chicken_Sandwich :Chicken_Sandwich)
+
+# Class: :Grilled_Steak_Soft_Taco (:Grilled_Steak_Soft_Taco)
+
+SubClassOf(:Grilled_Steak_Soft_Taco :Soft_Taco)
+
+# Class: :Gum_Arabic_Ingredient (:Gum_Arabic_Ingredient)
+
+SubClassOf(:Gum_Arabic_Ingredient :Food_Ingredient)
+
+# Class: :HDL_Levels (:HDL_Levels)
+
+SubClassOf(:HDL_Levels :Raised_Cholesterol_Levels)
+
+# Class: :Hamburger (:Hamburger)
+
+SubClassOf(:Hamburger :Fast_Food_Sandwich)
+
+# Class: :Hamburger_with_Bacon (:Hamburger_with_Bacon)
+
+SubClassOf(:Hamburger_with_Bacon :Hamburger)
+
+# Class: :Hard_Taco (:Hard_Taco)
+
+SubClassOf(:Hard_Taco :Fast_Food_Taco)
+
+# Class: :Hash_Brown_Sticks (:Hash_Brown_Sticks)
+
+SubClassOf(:Hash_Brown_Sticks :Hash_Browns)
+
+# Class: :Hash_Browns (:Hash_Browns)
+
+SubClassOf(:Hash_Browns :Fast_Food_Breakfast_Item)
+SubClassOf(:Hash_Browns :Fast_Food_Sides)
+
+# Class: :Heart_Disease (:Heart_Disease)
+
+SubClassOf(:Heart_Disease :Health_Outcomes)
+SubClassOf(:Heart_Disease ObjectSomeValuesFrom(:causedBy :Excess_Fat))
+SubClassOf(:Heart_Disease ObjectSomeValuesFrom(:causedBy :Excess_Trans_Fat))
+
+# Class: :Heath_Treatzza_Pizza (:Heath_Treatzza_Pizza)
+
+AnnotationAssertion(owl:deprecated :Heath_Treatzza_Pizza "true"^^xsd:boolean)
+SubClassOf(:Heath_Treatzza_Pizza :DQ_Treatzza_Pizza)
+
+# Class: :High_Fructose_Corn_Syrup_Ingredient (:High_Fructose_Corn_Syrup_Ingredient)
+
+SubClassOf(:High_Fructose_Corn_Syrup_Ingredient :Food_Ingredient)
+
+# Class: :Homestyle_Asiago_Ranch_Chicken_Club (:Homestyle_Asiago_Ranch_Chicken_Club)
+
+SubClassOf(:Homestyle_Asiago_Ranch_Chicken_Club :Chicken_Sandwich)
+
+# Class: :Homestyle_Avocado_BLT_Chicken_Sandwich (:Homestyle_Avocado_BLT_Chicken_Sandwich)
+
+SubClassOf(:Homestyle_Avocado_BLT_Chicken_Sandwich :Chicken_Sandwich)
+
+# Class: :Homestyle_Bacon_Jalapeno_Chicken_Sandwich (:Homestyle_Bacon_Jalapeno_Chicken_Sandwich)
+
+SubClassOf(:Homestyle_Bacon_Jalapeno_Chicken_Sandwich :Chicken_Sandwich)
+
+# Class: :Homestyle_Barbeque_Chicken_Sandwich (:Homestyle_Barbeque_Chicken_Sandwich)
+
+SubClassOf(:Homestyle_Barbeque_Chicken_Sandwich :Chicken_Sandwich)
+
+# Class: :Homestyle_Chicken_Sandwich (:Homestyle_Chicken_Sandwich)
+
+SubClassOf(:Homestyle_Chicken_Sandwich :Chicken_Sandwich)
+
+# Class: :Honey_BBQ_Glazed_Chicken_Strip_Basket (:Honey_BBQ_Glazed_Chicken_Strip_Basket)
+
+SubClassOf(:Honey_BBQ_Glazed_Chicken_Strip_Basket :Chicken_Strip_Basket)
+
+# Class: :Honey_BBQ_Glazed_Chicken_Strip_Basket_Combo (:Honey_BBQ_Glazed_Chicken_Strip_Basket_Combo)
+
+SubClassOf(:Honey_BBQ_Glazed_Chicken_Strip_Basket_Combo :Honey_BBQ_Glazed_Chicken_Strip_Basket)
+
+# Class: :Honey_Mustard (:Honey_Mustard)
+
+SubClassOf(:Honey_Mustard :Mustard)
+
+# Class: :Hot_Chocolate (:Hot_Chocolate)
+
+SubClassOf(:Hot_Chocolate :Fast_Food_Beverage)
+
+# Class: :Hot_Desserts_a_la_Mode (:Hot_Desserts_a_la_Mode)
+
+SubClassOf(:Hot_Desserts_a_la_Mode :Fast_Food_Dessert)
+
+# Class: :Hot_Dog (:Hot_Dog)
+
+SubClassOf(:Hot_Dog :Fast_Food_Sandwich)
+
+# Class: :Hot_Fudge_Shake (:Hot_Fudge_Shake)
+
+SubClassOf(:Hot_Fudge_Shake :Shake)
+
+# Class: :Hot_Fudge_Sundae (:Hot_Fudge_Sundae)
+
+SubClassOf(:Hot_Fudge_Sundae :Sundae)
+
+# Class: :Hot_Mustard (:Hot_Mustard)
+
+SubClassOf(:Hot_Mustard :Mustard)
+
+# Class: :Hot_Sauce (:Hot_Sauce)
+
+SubClassOf(:Hot_Sauce :Fast_Food_Condiment)
+
+# Class: :Hot_Tea (:Hot_Tea)
+
+SubClassOf(:Hot_Tea :Tea)
+
+# Class: :Hotcakes (:Hotcakes)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> :Hotcakes "Pancakes")
+EquivalentClasses(:Hotcakes :Pancakes)
+SubClassOf(:Hotcakes :Fast_Food_Breakfast_Item)
+
+# Class: :Hotcakes_Breakfast (:Hotcakes_Breakfast)
+
+SubClassOf(:Hotcakes_Breakfast :Hotcakes)
+
+# Class: :Hotcakes_and_Sausages (:Hotcakes_and_Sausages)
+
+SubClassOf(:Hotcakes_and_Sausages :Hotcakes)
+
+# Class: :Hypertension (:Hypertension)
+
+SubClassOf(:Hypertension :Health_Outcomes)
+SubClassOf(:Hypertension ObjectSomeValuesFrom(:causedBy :Excess_Sodium))
+
+# Class: :Ice_Cream (:Ice_Cream)
+
+SubClassOf(:Ice_Cream :Fast_Food_Dessert)
+
+# Class: :Ice_Cream_Bar (:Ice_Cream_Bar)
+
+SubClassOf(:Ice_Cream_Bar :Ice_Cream)
+
+# Class: :Ice_Cream_Cake (:Ice_Cream_Cake)
+
+SubClassOf(:Ice_Cream_Cake :Cake)
+SubClassOf(:Ice_Cream_Cake :Ice_Cream)
+
+# Class: :Ice_Cream_Sandwich (:Ice_Cream_Sandwich)
+
+SubClassOf(:Ice_Cream_Sandwich :Ice_Cream)
+
+# Class: :Iced_Caramel_Coffee (:Iced_Caramel_Coffee)
+
+SubClassOf(:Iced_Caramel_Coffee :Iced_Coffee)
+
+# Class: :Iced_Caramel_Macchiato (:Iced_Caramel_Macchiato)
+
+SubClassOf(:Iced_Caramel_Macchiato ObjectIntersectionOf(:Iced_Coffee :Macchiato))
+
+# Class: :Iced_Caramel_Mocha (:Iced_Caramel_Mocha)
+
+SubClassOf(:Iced_Caramel_Mocha :Iced_Coffee)
+SubClassOf(:Iced_Caramel_Mocha :Mocha)
+
+# Class: :Iced_Coffee (:Iced_Coffee)
+
+SubClassOf(:Iced_Coffee :Coffee)
+SubClassOf(:Iced_Coffee :Cold_Coffee)
+
+# Class: :Iced_French_Vanilla_Coffee (:Iced_French_Vanilla_Coffee)
+
+SubClassOf(:Iced_French_Vanilla_Coffee :Iced_Coffee)
+
+# Class: :Iced_French_Vanilla_Latte (:Iced_French_Vanilla_Latte)
+
+SubClassOf(:Iced_French_Vanilla_Latte :Iced_Coffee)
+SubClassOf(:Iced_French_Vanilla_Latte :Latte)
+
+# Class: :Iced_Latte (:Iced_Latte)
+
+SubClassOf(:Iced_Latte :Iced_Coffee)
+SubClassOf(:Iced_Latte :Latte)
+
+# Class: :Iced_Mocha (:Iced_Mocha)
+
+SubClassOf(:Iced_Mocha :Iced_Coffee)
+SubClassOf(:Iced_Mocha :Mocha)
+
+# Class: :Iced_Tea (:Iced_Tea)
+
+SubClassOf(:Iced_Tea :Tea)
+
+# Class: :Iron (:Iron)
+
+SubClassOf(:Iron :Nutritional_Components)
+
+# Class: :Jalapeno_and_Cheese_Whataburger (:Jalapeno_and_Cheese_Whataburger)
+
+SubClassOf(:Jalapeno_and_Cheese_Whataburger :Cheeseburger)
+
+# Class: :Jr_Cheeseburger (:Jr_Cheeseburger)
+
+SubClassOf(:Jr_Cheeseburger :Cheeseburger)
+
+# Class: :Jr_Cheeseburger_Deluxe (:Jr_Cheeseburger_Deluxe)
+
+SubClassOf(:Jr_Cheeseburger_Deluxe :Jr_Cheeseburger)
+
+# Class: :Julius_Original (:Julius_Original)
+
+AnnotationAssertion(<http://purl.org/dc/terms/description> :Julius_Original "beverage that is mixture of ice, fruit, sweetener, milk, powdered egg whites and vanilla flavoring, https://en.wikipedia.org/wiki/Orange_Julius")
+SubClassOf(:Julius_Original :Fast_Food_Beverage)
+
+# Class: :Kale_Crunch_Side (:Kale_Crunch_Side)
+
+SubClassOf(:Kale_Crunch_Side :Fast_Food_Sides)
+
+# Class: :Kung_Pao_Chicken (:Kung_Pao_Chicken)
+
+SubClassOf(:Kung_Pao_Chicken :Asian_Chicken_Dish)
+
+# Class: :LDL_Levels (:LDL_Levels)
+
+SubClassOf(:LDL_Levels :Raised_Cholesterol_Levels)
+
+# Class: :Lactic_Acid_Ingredient (:Lactic_Acid_Ingredient)
+
+SubClassOf(:Lactic_Acid_Ingredient :Food_Ingredient)
+
+# Class: :Latte (:Latte)
+
+SubClassOf(:Latte :Coffee)
+
+# Class: :Lemon_Pie (:Lemon_Pie)
+
+SubClassOf(:Lemon_Pie :Pie)
+
+# Class: :Lemonade (:Lemonade)
+
+SubClassOf(:Lemonade :Fast_Food_Beverage)
+
+# Class: :Lemonade_Twisty_Misty_Slush (:Lemonade_Twisty_Misty_Slush)
+
+SubClassOf(:Lemonade_Twisty_Misty_Slush :Slushie)
+
+# Class: :Lettuce_Ingredient (:Lettuce_Ingredient)
+
+SubClassOf(:Lettuce_Ingredient :Food_Ingredient)
+
+# Class: :Light_Soda (:Light_Soda)
+
+SubClassOf(:Light_Soda :Soft_Drink)
+
+# Class: :Macchiato (:Macchiato)
+
+SubClassOf(:Macchiato :Coffee)
+
+# Class: :Macorni_and_Cheese (:Macorni_and_Cheese)
+
+SubClassOf(:Macorni_and_Cheese :Fast_Food_Sides)
+
+# Class: :Maltodextrin_Ingredient (:Maltodextrin_Ingredient)
+
+SubClassOf(:Maltodextrin_Ingredient :Food_Ingredient)
+
+# Class: :Mango_Passion_Tea_Lemonade (:Mango_Passion_Tea_Lemonade)
+
+SubClassOf(:Mango_Passion_Tea_Lemonade :Lemonade)
+
+# Class: :Mango_Pineapple_Smoothie (:Mango_Pineapple_Smoothie)
+
+SubClassOf(:Mango_Pineapple_Smoothie :Smoothie)
+
+# Class: :Maple_Bacon_Chicken_Croissant (:Maple_Bacon_Chicken_Croissant)
+
+SubClassOf(:Maple_Bacon_Chicken_Croissant :Croissant_Sandwich)
+
+# Class: :Mayonnaise (:Mayonnaise)
+
+SubClassOf(:Mayonnaise :Fast_Food_Condiment)
+
+# Class: :McGriddles (:McGriddles)
+
+SubClassOf(:McGriddles :Breakfast_Sandwich)
+
+# Class: :McMuffin (:McMuffin)
+
+SubClassOf(:McMuffin :Breakfast_Sandwich)
+
+# Class: :Milk (:Milk)
+
+SubClassOf(:Milk :Fast_Food_Beverage)
+
+# Class: :Milk_Ingredient (:Milk_Ingredient)
+
+SubClassOf(:Milk_Ingredient :Food_Ingredient)
+
+# Class: :Mineral_Water (:Mineral_Water)
+
+SubClassOf(:Mineral_Water :Water)
+
+# Class: :Minerals_Data (:Minerals_Data)
+
+AnnotationAssertion(owl:deprecated :Minerals_Data "true"^^xsd:boolean)
+SubClassOf(:Minerals_Data :Nutritional_Components)
+
+# Class: :Mini_Blizzard_Cake (:Mini_Blizzard_Cake)
+
+AnnotationAssertion(owl:deprecated :Mini_Blizzard_Cake "true"^^xsd:boolean)
+SubClassOf(:Mini_Blizzard_Cake :Blizzard_Cake)
+
+# Class: :Mix_by_Sprite_Tropic_Berry (:Mix_by_Sprite_Tropic_Berry)
+
+SubClassOf(:Mix_by_Sprite_Tropic_Berry :Light_Soda)
+
+# Class: :Mocha (:Mocha)
+
+SubClassOf(:Mocha :Coffee)
+
+# Class: :Mocha_Frappe (:Mocha_Frappe)
+
+SubClassOf(:Mocha_Frappe :Frappe)
+
+# Class: :Mocha_MooLatte (:Mocha_MooLatte)
+
+SubClassOf(:Mocha_MooLatte :Cold_Coffee)
+SubClassOf(:Mocha_MooLatte :Latte)
+
+# Class: :Mushroom_Swiss_Burger (:Mushroom_Swiss_Burger)
+
+SubClassOf(:Mushroom_Swiss_Burger :Cheeseburger)
+
+# Class: :Mustard (:Mustard)
+
+SubClassOf(:Mustard :Fast_Food_Condiment)
+
+# Class: :Mustard_Seed_Ingredient (:Mustard_Seed_Ingredient)
+
+SubClassOf(:Mustard_Seed_Ingredient :Food_Ingredient)
+
+# Class: :Nacho_Cheese_Doritos_Loco_Taco (:Nacho_Cheese_Doritos_Loco_Taco)
+
+SubClassOf(:Nacho_Cheese_Doritos_Loco_Taco :Fast_Food_Taco)
+
+# Class: :Nacho_Cheese_Doritos_Locos_Taco (:Nacho_Cheese_Doritos_Locos_Taco)
+
+SubClassOf(:Nacho_Cheese_Doritos_Locos_Taco :Fast_Food_Taco)
+
+# Class: :Natural_Flavors (:Natural_Flavors)
+
+SubClassOf(:Natural_Flavors :Food_Ingredient)
+
+# Class: :Naturally_Occurring_Sugar_Data (:Naturally_Occurring_Sugar_Data)
+
+SubClassOf(:Naturally_Occurring_Sugar_Data :Sugar_Data)
+
+# Class: :Non-Dairy_Dilly_Bar (:Non-Dairy_Dilly_Bar)
+
+SubClassOf(:Non-Dairy_Dilly_Bar :Ice_Cream_Bar)
+
+# Class: :Noodles (:Noodles)
+
+SubClassOf(:Noodles :Fast_Food_Sides)
+
+# Class: :NutritionalFact (:NutritionalFact)
+
+AnnotationAssertion(rdfs:comment :NutritionalFact "Concept that encapsulates nutritional information of foods ranging from allergens, ingredients, and nutrient info.")
+
+# Class: :Nutritional_Components (:Nutritional_Components)
+
+AnnotationAssertion(rdfs:comment :Nutritional_Components "Concept that covers value data for vitamins, calories, fats, etc contained in food items")
+
+# Class: :Oatmeal_Bar (:Oatmeal_Bar)
+
+SubClassOf(:Oatmeal_Bar :Fast_Food_Sides)
+
+# Class: :Obesity (:Obesity)
+
+SubClassOf(:Obesity :Health_Outcomes)
+SubClassOf(:Obesity ObjectSomeValuesFrom(:causedBy :Excess_Sugar))
+
+# Class: :Onion_Rings (:Onion_Rings)
+
+SubClassOf(:Onion_Rings :Fries)
+
+# Class: :Onions_Ingredient (:Onions_Ingredient)
+
+SubClassOf(:Onions_Ingredient :Food_Ingredient)
+
+# Class: :Orange_Chicken (:Orange_Chicken)
+
+SubClassOf(:Orange_Chicken :Asian_Chicken_Dish)
+
+# Class: :Orange_Juice (:Orange_Juice)
+
+SubClassOf(:Orange_Juice :Fruit_Juice)
+
+# Class: :Orange_Julius_Original (:Orange_Julius_Original)
+
+SubClassOf(:Orange_Julius_Original :Julius_Original)
+
+# Class: :Orange_Soda (:Orange_Soda)
+
+SubClassOf(:Orange_Soda :Fruit_Soda)
+
+# Class: :Oreo_Blizzard_Cake (:Oreo_Blizzard_Cake)
+
+AnnotationAssertion(owl:deprecated :Oreo_Blizzard_Cake "true"^^xsd:boolean)
+SubClassOf(:Oreo_Blizzard_Cake :Blizzard_Cake)
+
+# Class: :Oreo_Mini (:Oreo_Mini)
+
+AnnotationAssertion(owl:deprecated :Oreo_Mini "true"^^xsd:boolean)
+SubClassOf(:Oreo_Mini :Mini_Blizzard_Cake)
+
+# Class: :Organic_Apple_Juice (:Organic_Apple_Juice)
+
+SubClassOf(:Organic_Apple_Juice :Apple_Juice)
+
+# Class: :Osteoporosis (:Osteoporosis)
+
+SubClassOf(:Osteoporosis :Health_Outcomes)
+SubClassOf(:Osteoporosis ObjectSomeValuesFrom(:causedBy :Excess_Sugar))
+
+# Class: :Overweight (:Overweight)
+
+SubClassOf(:Overweight :Health_Outcomes)
+SubClassOf(:Overweight ObjectSomeValuesFrom(:causedBy :Excess_Fat))
+SubClassOf(:Overweight ObjectSomeValuesFrom(:causedBy :Excess_Sugar))
+
+# Class: :Pancake_Platter_Whataburgers (:Pancake_Platter_Whataburgers)
+
+SubClassOf(:Pancake_Platter_Whataburgers :Breakfast_Platter)
+
+# Class: :Pancakes (:Pancakes)
+
+SubClassOf(:Pancakes :Fast_Food_Breakfast_Item)
+
+# Class: :Paprika_Ingredient (:Paprika_Ingredient)
+
+SubClassOf(:Paprika_Ingredient :Food_Ingredient)
+
+# Class: :Parmesan_Caesar_Chicken (:Parmesan_Caesar_Chicken)
+
+SubClassOf(:Parmesan_Caesar_Chicken :Chicken_Salad)
+
+# Class: :Parmesan_Caesar_Chicken_Salad_Dressing (:Parmesan_Caesar_Chicken_Salad_Dressing)
+
+SubClassOf(:Parmesan_Caesar_Chicken_Salad_Dressing :Salad_Dressing)
+
+# Class: :Peach_Lemonade (:Peach_Lemonade)
+
+SubClassOf(:Peach_Lemonade :Lemonade)
+
+# Class: :Peanut_Butter_Parfait (:Peanut_Butter_Parfait)
+
+SubClassOf(:Peanut_Butter_Parfait :Royal_Treats)
+
+# Class: :Peanut_Butter_Shake (:Peanut_Butter_Shake)
+
+SubClassOf(:Peanut_Butter_Shake :Shake)
+
+# Class: :Peanut_Butter_Sundae (:Peanut_Butter_Sundae)
+
+SubClassOf(:Peanut_Butter_Sundae :Sundae)
+
+# Class: :Peanut_Oil_Ingredient (:Peanut_Oil_Ingredient)
+
+SubClassOf(:Peanut_Oil_Ingredient :Food_Ingredient)
+
+# Class: :Pepper_Ingredient (:Pepper_Ingredient)
+
+SubClassOf(:Pepper_Ingredient :Food_Ingredient)
+
+# Class: :Pie (:Pie)
+
+SubClassOf(:Pie :Fast_Food_Dessert)
+
+# Class: :Pineapple_Sundae (:Pineapple_Sundae)
+
+SubClassOf(:Pineapple_Sundae :Sundae)
+
+# Class: :Pink_Lemonade_Slushie (:Pink_Lemonade_Slushie)
+
+SubClassOf(:Pink_Lemonade_Slushie :Slushie)
+
+# Class: :Potassium (:Potassium)
+
+SubClassOf(:Potassium :Nutritional_Components)
+
+# Class: :Potassium_Sorbate_Ingredient (:Potassium_Sorbate_Ingredient)
+
+SubClassOf(:Potassium_Sorbate_Ingredient :Food_Ingredient)
+
+# Class: :Potatoe_Fries (:Potatoe_Fries)
+
+SubClassOf(:Potatoe_Fries :Fries)
+
+# Class: :Potatoes_Ingredient (:Potatoes_Ingredient)
+
+SubClassOf(:Potatoes_Ingredient :Food_Ingredient)
+
+# Class: :Pretzel (:Pretzel)
+
+SubClassOf(:Pretzel :Fast_Food_Sides)
+
+# Class: :Pretzel_Sticks_with_Zesty_Queso (:Pretzel_Sticks_with_Zesty_Queso)
+
+SubClassOf(:Pretzel_Sticks_with_Zesty_Queso :Pretzel)
+
+# Class: :Protein_Data (:Protein_Data)
+
+SubClassOf(:Protein_Data :Nutritional_Components)
+
+# Class: :Quarter_Pound_Hamburger (:Quarter_Pound_Hamburger)
+
+SubClassOf(:Quarter_Pound_Hamburger :Hamburger)
+
+# Class: :Raised_Cholesterol_Levels (:Raised_Cholesterol_Levels)
+
+SubClassOf(:Raised_Cholesterol_Levels :Health_Outcomes)
+
+# Class: :Ranch (:Ranch)
+
+SubClassOf(:Ranch :Fast_Food_Condiment)
+
+# Class: :Raspberry_Fudge_Bliss_Blizzard_Cake (:Raspberry_Fudge_Bliss_Blizzard_Cake)
+
+AnnotationAssertion(owl:deprecated :Raspberry_Fudge_Bliss_Blizzard_Cake "true"^^xsd:boolean)
+SubClassOf(:Raspberry_Fudge_Bliss_Blizzard_Cake :Blizzard_Cake)
+
+# Class: :Raspberry_Tea (:Raspberry_Tea)
+
+SubClassOf(:Raspberry_Tea :Tea)
+
+# Class: :Reese_Peanut_Butter_Cup_Blizzard_Cake (:Reese_Peanut_Butter_Cup_Blizzard_Cake)
+
+AnnotationAssertion(owl:deprecated :Reese_Peanut_Butter_Cup_Blizzard_Cake "true"^^xsd:boolean)
+SubClassOf(:Reese_Peanut_Butter_Cup_Blizzard_Cake :Blizzard_Cake)
+
+# Class: :Rice (:Rice)
+
+SubClassOf(:Rice :Fast_Food_Sides)
+
+# Class: :Root_Beer (:Root_Beer)
+
+SubClassOf(:Root_Beer :Dark_Soda)
+
+# Class: :Royal_Treats (:Royal_Treats)
+
+SubClassOf(:Royal_Treats :Ice_Cream)
+
+# Class: :Salad_Dressing (:Salad_Dressing)
+
+SubClassOf(:Salad_Dressing :Fast_Food_Condiment)
+
+# Class: :Salt_Ingredient (:Salt_Ingredient)
+
+SubClassOf(:Salt_Ingredient :Food_Ingredient)
+
+# Class: :Saturated_Fat_Data (:Saturated_Fat_Data)
+
+SubClassOf(:Saturated_Fat_Data :Fat_Data)
+
+# Class: :Sausage_Biscuit (:Sausage_Biscuit)
+
+SubClassOf(:Sausage_Biscuit :Breakfast_Biscuit_Sandwich)
+
+# Class: :Sausage_Biscuit_with_Egg (:Sausage_Biscuit_with_Egg)
+
+SubClassOf(:Sausage_Biscuit_with_Egg :Breakfast_Biscuit_Sandwich)
+
+# Class: :Sausage_Egg_and_Cheese_Burrito (:Sausage_Egg_and_Cheese_Burrito)
+
+SubClassOf(:Sausage_Egg_and_Cheese_Burrito :Fast_Food_Burrito)
+
+# Class: :Sausage_Egg_and_Cheese_McGriddles (:Sausage_Egg_and_Cheese_McGriddles)
+
+SubClassOf(:Sausage_Egg_and_Cheese_McGriddles :McGriddles)
+
+# Class: :Sausage_Egg_and_Swiss_Croissant (:Sausage_Egg_and_Swiss_Croissant)
+
+SubClassOf(:Sausage_Egg_and_Swiss_Croissant :Croissant_Sandwich)
+
+# Class: :Sausage_McGriddles (:Sausage_McGriddles)
+
+SubClassOf(:Sausage_McGriddles :McGriddles)
+
+# Class: :Sausage_McMuffin (:Sausage_McMuffin)
+
+SubClassOf(:Sausage_McMuffin :McMuffin)
+
+# Class: :Sausage_McMuffin_with_Egg (:Sausage_McMuffin_with_Egg)
+
+SubClassOf(:Sausage_McMuffin_with_Egg :McMuffin)
+
+# Class: :Seasme_Chicken (:Seasme_Chicken)
+
+SubClassOf(:Seasme_Chicken :Asian_Chicken_Dish)
+
+# Class: :Seasoned_Potatoes (:Seasoned_Potatoes)
+
+SubClassOf(:Seasoned_Potatoes :Fast_Food_Sides)
+
+# Class: :Seltzer_Water (:Seltzer_Water)
+
+SubClassOf(:Seltzer_Water :Carbonated_Water)
+
+# Class: :Serving_Size_Data (:Serving_Size_Data)
+
+SubClassOf(:Serving_Size_Data :Nutritional_Components)
+
+# Class: :Shake (:Shake)
+
+SubClassOf(:Shake :Fast_Food_Beverage)
+
+# Class: :Shredded_Chicken_Burrito (:Shredded_Chicken_Burrito)
+
+SubClassOf(:Shredded_Chicken_Burrito :Chicken_Burrito)
+
+# Class: :Sichuan_Chicken (:Sichuan_Chicken)
+
+SubClassOf(:Sichuan_Chicken :Asian_Chicken_Dish)
+
+# Class: :Side_Salad (:Side_Salad)
+
+SubClassOf(:Side_Salad :Fast_Food_Sides)
+
+# Class: :Silicon_Dioxide_Ingredient (:Silicon_Dioxide_Ingredient)
+
+SubClassOf(:Silicon_Dioxide_Ingredient :Food_Ingredient)
+
+# Class: :Slushie (:Slushie)
+
+SubClassOf(:Slushie :Fast_Food_Beverage)
+
+# Class: :Smoothie (:Smoothie)
+
+SubClassOf(:Smoothie :Fast_Food_Beverage)
+
+# Class: :Sodium (:Sodium)
+
+SubClassOf(:Sodium :Nutritional_Components)
+
+# Class: :Sodium_Citrate_Ingredient (:Sodium_Citrate_Ingredient)
+
+SubClassOf(:Sodium_Citrate_Ingredient :Food_Ingredient)
+
+# Class: :Sodium_Data (:Sodium_Data)
+
+SubClassOf(:Sodium_Data :Nutritional_Components)
+
+# Class: :Soft_Drink (:Soft_Drink)
+
+SubClassOf(:Soft_Drink :Fast_Food_Beverage)
+
+# Class: :Soft_Taco (:Soft_Taco)
+
+SubClassOf(:Soft_Taco :Fast_Food_Taco)
+
+# Class: :Soft_Taco_Supreme_Beef_Taco (:Soft_Taco_Supreme_Beef_Taco)
+
+SubClassOf(:Soft_Taco_Supreme_Beef_Taco :Soft_Taco)
+
+# Class: :Sorbic_Acid_Ingredient (:Sorbic_Acid_Ingredient)
+
+SubClassOf(:Sorbic_Acid_Ingredient :Food_Ingredient)
+
+# Class: :Soup (:Soup)
+
+SubClassOf(:Soup :Fast_Food_Sides)
+
+# Class: :Southwest_Avocado_Chicken_Salad (:Southwest_Avocado_Chicken_Salad)
+
+SubClassOf(:Southwest_Avocado_Chicken_Salad :Chicken_Salad)
+
+# Class: :Southwest_Avocado_Chicken_Salad_Dressing (:Southwest_Avocado_Chicken_Salad_Dressing)
+
+SubClassOf(:Southwest_Avocado_Chicken_Salad_Dressing :Salad_Dressing)
+
+# Class: :Soy_Sauce (:Soy_Sauce)
+
+SubClassOf(:Soy_Sauce :Fast_Food_Condiment)
+
+# Class: :Soybean_Oil_Ingredient (:Soybean_Oil_Ingredient)
+
+SubClassOf(:Soybean_Oil_Ingredient :Food_Ingredient)
+
+# Class: :Spicy_Asiago_Ranch_Club (:Spicy_Asiago_Ranch_Club)
+
+SubClassOf(:Spicy_Asiago_Ranch_Club :Chicken_Sandwich)
+
+# Class: :Spicy_Avocado_BLT_Chicken_Sandwich (:Spicy_Avocado_BLT_Chicken_Sandwich)
+
+SubClassOf(:Spicy_Avocado_BLT_Chicken_Sandwich :Spicy_Chicken_Sandwich)
+
+# Class: :Spicy_Barbeque_Chicken_Sandwich (:Spicy_Barbeque_Chicken_Sandwich)
+
+SubClassOf(:Spicy_Barbeque_Chicken_Sandwich :Spicy_Chicken_Sandwich)
+
+# Class: :Spicy_Chicken_Nugget (:Spicy_Chicken_Nugget)
+
+SubClassOf(:Spicy_Chicken_Nugget :Chicken_Nuggets)
+
+# Class: :Spicy_Chicken_Sandwich (:Spicy_Chicken_Sandwich)
+
+SubClassOf(:Spicy_Chicken_Sandwich :Chicken_Sandwich)
+
+# Class: :Spicy_Potato_Soft_Taco (:Spicy_Potato_Soft_Taco)
+
+SubClassOf(:Spicy_Potato_Soft_Taco :Soft_Taco)
+
+# Class: :Spicy_Southwest_Salad (:Spicy_Southwest_Salad)
+
+SubClassOf(:Spicy_Southwest_Salad :Fast_Food_Salad)
+
+# Class: :Sports_Drink (:Sports_Drink)
+
+SubClassOf(:Sports_Drink :Fast_Food_Beverage)
+
+# Class: :Sprite_Soft_Drink (:Sprite_Soft_Drink)
+
+SubClassOf(:Sprite_Soft_Drink :Light_Soda)
+
+# Class: :Sriracha (:Sriracha)
+
+SubClassOf(:Sriracha :Chilli_Sauce)
+
+# Class: :Strawberry (:Strawberry)
+
+SubClassOf(:Strawberry :Fruit)
+
+# Class: :Strawberry_Banana_Julius_Original (:Strawberry_Banana_Julius_Original)
+
+SubClassOf(:Strawberry_Banana_Julius_Original :Julius_Original)
+
+# Class: :Strawberry_Banana_Smoothie (:Strawberry_Banana_Smoothie)
+
+SubClassOf(:Strawberry_Banana_Smoothie :Smoothie)
+
+# Class: :Strawberry_Lemonade (:Strawberry_Lemonade)
+
+SubClassOf(:Strawberry_Lemonade :Lemonade)
+
+# Class: :Strawberry_Malt (:Strawberry_Malt)
+
+EquivalentClasses(:Strawberry_Malt :Strawberry_Shake)
+SubClassOf(:Strawberry_Malt :Shake)
+
+# Class: :Strawberry_Milk (:Strawberry_Milk)
+
+SubClassOf(:Strawberry_Milk :Milk)
+
+# Class: :Strawberry_Shake (:Strawberry_Shake)
+
+SubClassOf(:Strawberry_Shake :Shake)
+
+# Class: :Strawberry_Soda (:Strawberry_Soda)
+
+SubClassOf(:Strawberry_Soda :Fruit_Soda)
+
+# Class: :Strawberry_Sundae (:Strawberry_Sundae)
+
+SubClassOf(:Strawberry_Sundae :Sundae)
+
+# Class: :Sugar_Cookie (:Sugar_Cookie)
+
+SubClassOf(:Sugar_Cookie :Cookie)
+
+# Class: :Sugar_Data (:Sugar_Data)
+
+SubClassOf(:Sugar_Data :Carbohydrates_Data)
+
+# Class: :Sugar_Ingredient (:Sugar_Ingredient)
+
+SubClassOf(:Sugar_Ingredient :Food_Ingredient)
+
+# Class: :Summer_Strawberry (:Summer_Strawberry)
+
+SubClassOf(:Summer_Strawberry :Fast_Food_Salad)
+
+# Class: :Summer_Strawberry_Salad_Dressing (:Summer_Strawberry_Salad_Dressing)
+
+SubClassOf(:Summer_Strawberry_Salad_Dressing :Salad_Dressing)
+
+# Class: :Sundae (:Sundae)
+
+SubClassOf(:Sundae :Ice_Cream)
+
+# Class: :Sunflower_Lecithin_Ingredient (:Sunflower_Lecithin_Ingredient)
+
+SubClassOf(:Sunflower_Lecithin_Ingredient :Food_Ingredient)
+
+# Class: :Sunflower_Oil_Ingredient (:Sunflower_Oil_Ingredient)
+
+SubClassOf(:Sunflower_Oil_Ingredient :Food_Ingredient)
+
+# Class: :Sweet_Tea (:Sweet_Tea)
+
+SubClassOf(:Sweet_Tea :Tea)
+
+# Class: :Sweet_and_Sour_Sauce (:Sweet_and_Sour_Sauce)
+
+SubClassOf(:Sweet_and_Sour_Sauce :Fast_Food_Condiment)
+
+# Class: :Sweet_and_Spicy_Sriracha (:Sweet_and_Spicy_Sriracha)
+
+SubClassOf(:Sweet_and_Spicy_Sriracha :Sriracha)
+
+# Class: :Taco_Salad (:Taco_Salad)
+
+SubClassOf(:Taco_Salad :Fast_Food_Salad)
+
+# Class: :Taquito_with_Cheese (:Taquito_with_Cheese)
+
+SubClassOf(:Taquito_with_Cheese :Fast_Food_Breakfast_Item)
+SubClassOf(:Taquito_with_Cheese :Fast_Food_Taco)
+
+# Class: :Tartar_Sauce (:Tartar_Sauce)
+
+SubClassOf(:Tartar_Sauce :Fast_Food_Condiment)
+
+# Class: :Tea (:Tea)
+
+SubClassOf(:Tea :Fast_Food_Beverage)
+
+# Class: :Teriyaki_Chicken (:Teriyaki_Chicken)
+
+SubClassOf(:Teriyaki_Chicken :Asian_Chicken_Dish)
+
+# Class: :Teriyaki_Sauce (:Teriyaki_Sauce)
+
+SubClassOf(:Teriyaki_Sauce :Fast_Food_Condiment)
+
+# Class: :Third_Pound_Double_Patty_Cheeseburger (:Third_Pound_Double_Patty_Cheeseburger)
+
+SubClassOf(:Third_Pound_Double_Patty_Cheeseburger :Cheeseburger)
+
+# Class: :Third_Pound_Hamburger (:Third_Pound_Hamburger)
+
+SubClassOf(:Third_Pound_Hamburger :Hamburger)
+
+# Class: :Tiramisu_Shake (:Tiramisu_Shake)
+
+SubClassOf(:Tiramisu_Shake :Shake)
+
+# Class: :Tomato_Ingredient (:Tomato_Ingredient)
+
+SubClassOf(:Tomato_Ingredient :Food_Ingredient)
+
+# Class: :Tomato_Sauce (:Tomato_Sauce)
+
+SubClassOf(:Tomato_Sauce :Fast_Food_Condiment)
+
+# Class: :Tooth_Decay (:Tooth_Decay)
+
+SubClassOf(:Tooth_Decay :Health_Outcomes)
+SubClassOf(:Tooth_Decay ObjectSomeValuesFrom(:causedBy :Excess_Sugar))
+
+# Class: :Trans_Fat_Data (:Trans_Fat_Data)
+
+SubClassOf(:Trans_Fat_Data :Fat_Data)
+
+# Class: :Triple_Chocolate_Brownie (:Triple_Chocolate_Brownie)
+
+SubClassOf(:Triple_Chocolate_Brownie :Brownie)
+
+# Class: :Triple_Patty_Hamburger (:Triple_Patty_Hamburger)
+
+SubClassOf(:Triple_Patty_Hamburger :Hamburger)
+
+# Class: :Tropical_Berry_Lemonade (:Tropical_Berry_Lemonade)
+
+SubClassOf(:Tropical_Berry_Lemonade :Lemonade)
+
+# Class: :Tumeric_Ingredient (:Tumeric_Ingredient)
+
+SubClassOf(:Tumeric_Ingredient :Food_Ingredient)
+
+# Class: :Turkey_BLT_Sandwich (:Turkey_BLT_Sandwich)
+
+SubClassOf(:Turkey_BLT_Sandwich :Bacon_Lettuce_and_Tomato_Sandwich)
+
+# Class: :Type_II_Diabetes (:Type_II_Diabetes)
+
+SubClassOf(:Type_II_Diabetes :Health_Outcomes)
+SubClassOf(:Type_II_Diabetes ObjectSomeValuesFrom(:causedBy :Excess_Sugar))
+
+# Class: :Unsaturated_Fat_Data (:Unsaturated_Fat_Data)
+
+SubClassOf(:Unsaturated_Fat_Data :Fat_Data)
+
+# Class: :Unsweetened_Tea (:Unsweetened_Tea)
+
+SubClassOf(:Unsweetened_Tea :Tea)
+
+# Class: :Vanilla_Frosty_Cookie_Sundae (:Vanilla_Frosty_Cookie_Sundae)
+
+SubClassOf(:Vanilla_Frosty_Cookie_Sundae :Sundae)
+
+# Class: :Vanilla_MooLatte (:Vanilla_MooLatte)
+
+SubClassOf(:Vanilla_MooLatte :Cold_Coffee)
+SubClassOf(:Vanilla_MooLatte :Latte)
+
+# Class: :Vanilla_Shake (:Vanilla_Shake)
+
+SubClassOf(:Vanilla_Shake :Shake)
+
+# Class: :Vegetarian_Burrito (:Vegetarian_Burrito)
+
+SubClassOf(:Vegetarian_Burrito :Fast_Food_Burrito)
+
+# Class: :Vinegar_Ingredient (:Vinegar_Ingredient)
+
+SubClassOf(:Vinegar_Ingredient :Food_Ingredient)
+
+# Class: :Vitamin_A (:Vitamin_A)
+
+SubClassOf(:Vitamin_A :Nutritional_Components)
+
+# Class: :Vitamin_C (:Vitamin_C)
+
+SubClassOf(:Vitamin_C :Nutritional_Components)
+
+# Class: :Vitamin_D (:Vitamin_D)
+
+SubClassOf(:Vitamin_D :Nutritional_Components)
+
+# Class: :Waffle (:Waffle)
+
+SubClassOf(:Waffle :Fast_Food_Breakfast_Item)
+
+# Class: :Waffle_Potato_Chips (:Waffle_Potato_Chips)
+
+SubClassOf(:Waffle_Potato_Chips :Fast_Food_Sides)
+
+# Class: :Water (:Water)
+
+SubClassOf(:Water :Fast_Food_Beverage)
+
+# Class: :Water_Ingredient (:Water_Ingredient)
+
+SubClassOf(:Water_Ingredient :Food_Ingredient)
+
+# Class: :White_Castle (:White_Castle)
+
+SubClassOf(:White_Castle :Fast_Food_Restaurant)
+
+# Class: :White_Rice (:White_Rice)
+
+SubClassOf(:White_Rice :Rice)
+
+# Class: :Wonder_Woman_Cookie_Collision_Blizzard_Cake (:Wonder_Woman_Cookie_Collision_Blizzard_Cake)
+
+AnnotationAssertion(owl:deprecated :Wonder_Woman_Cookie_Collision_Blizzard_Cake "true"^^xsd:boolean)
+SubClassOf(:Wonder_Woman_Cookie_Collision_Blizzard_Cake :Blizzard_Cake)
+
+# Class: :Yeast_Ingredient (:Yeast_Ingredient)
+
+SubClassOf(:Yeast_Ingredient :Food_Ingredient)
+
+# Class: :disodium_dihydrogen_pyrophosphate_Ingredient (:disodium_dihydrogen_pyrophosphate_Ingredient)
+
+SubClassOf(:disodium_dihydrogen_pyrophosphate_Ingredient :Food_Ingredient)
+
+# Class: <http://sbmi.uth.edu/ontology/offf#Big_Breakfast_McDonald's> (<http://sbmi.uth.edu/ontology/offf#Big_Breakfast_McDonald's>)
+
+SubClassOf(<http://sbmi.uth.edu/ontology/offf#Big_Breakfast_McDonald's> :Breakfast_Platter)
+
+# Class: <http://sbmi.uth.edu/ontology/offf#M&M_DQ_Treatzza_Pizza> (<http://sbmi.uth.edu/ontology/offf#M&M_DQ_Treatzza_Pizza>)
+
+AnnotationAssertion(owl:deprecated <http://sbmi.uth.edu/ontology/offf#M&M_DQ_Treatzza_Pizza> "true"^^xsd:boolean)
+SubClassOf(<http://sbmi.uth.edu/ontology/offf#M&M_DQ_Treatzza_Pizza> :DQ_Treatzza_Pizza)
+
+# Class: <http://sbmi.uth.edu/ontology/offf#Reese's_Mini_Blizzard_Cake> (<http://sbmi.uth.edu/ontology/offf#Reese's_Mini_Blizzard_Cake>)
+
+AnnotationAssertion(owl:deprecated <http://sbmi.uth.edu/ontology/offf#Reese's_Mini_Blizzard_Cake> "true"^^xsd:boolean)
+SubClassOf(<http://sbmi.uth.edu/ontology/offf#Reese's_Mini_Blizzard_Cake> :Mini_Blizzard_Cake)
+
+# Class: <http://sbmi.uth.edu/ontology/offf#Reese's_Peanut_Butter_Cups_DQ_Treatzza_Pizza> (<http://sbmi.uth.edu/ontology/offf#Reese's_Peanut_Butter_Cups_DQ_Treatzza_Pizza>)
+
+AnnotationAssertion(owl:deprecated <http://sbmi.uth.edu/ontology/offf#Reese's_Peanut_Butter_Cups_DQ_Treatzza_Pizza> "true"^^xsd:boolean)
+SubClassOf(<http://sbmi.uth.edu/ontology/offf#Reese's_Peanut_Butter_Cups_DQ_Treatzza_Pizza> :DQ_Treatzza_Pizza)
+
+
+)
